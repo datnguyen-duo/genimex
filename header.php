@@ -20,10 +20,10 @@
     <header id="site-header" <?php if(is_front_page()): ?>class="home-page"<?php endif; ?>>
         <div class="logo-holder">
             <a href="<?= get_site_url() ?>">
-                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_white.svg' ?>" alt="" class="light-logo desktop">
-                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_gray.svg' ?>" alt="" class="dark-logo desktop">
-                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_white.svg' ?>" alt="" class="light-logo mobile">
-                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_gray.svg' ?>" alt="" class="dark-logo mobile">
+                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_white.svg' ?>" alt="logo" class="light-logo desktop">
+                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_gray.svg' ?>" alt="logo" class="dark-logo desktop">
+                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_white.svg' ?>" alt="logo" class="light-logo mobile">
+                <img src="<?= get_template_directory_uri().'/src/images/logo/genimex_logo_gray.svg' ?>" alt="logo" class="dark-logo mobile">
             </a>
         </div>
 

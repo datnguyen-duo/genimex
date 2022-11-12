@@ -133,15 +133,17 @@ get_header(); ?>
             <div class="logos animate">
                 <!-- <div class="logo-holder"></div> -->
                 <?php if($partners_section_partners): ?>
-                    <div class="swiper logos-swiper">
-                        <div class="swiper-wrapper">
-                            <?php foreach($partners_section_partners as $singlePartner): ?>
-                                <div class="swiper-slide">
-                                    <div class="slide-content">
-                                        <img src="<?php echo $singlePartner['single_partner']['url'] ?>" alt="<?php echo $singlePartner['alt'] ?>">
+                    <div class="marquee logos-swiper">
+                        <div class="marquee__container">
+                            <div class="marquee__inner">
+                                <?php foreach($partners_section_partners as $singlePartner): ?>
+                                    <div class="marquee__inner--slide">
+                                        <div class="marquee__inner--slide-content">
+                                            <img src="<?php echo $singlePartner['single_partner']['url'] ?>" alt="<?php echo $singlePartner['single_partner']['alt'] ?>">
+                                        </div>
                                     </div>
-                                </div>
-                            <?php endforeach; ?>
+                                <?php endforeach; ?>
+                            </div>
                         </div>
                     </div>
                 <?php endif; ?>

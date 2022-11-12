@@ -30,7 +30,7 @@ body.no-scroll {
 .link-btn {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   display: flex;
   font-family: "NeueMontreal-Medium", serif;
@@ -57,7 +57,7 @@ body.no-scroll {
   height: 22px;
   margin-left: 5px;
   border-radius: 100px;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   position: relative;
   transition: all 400ms ease 0ms;
 }
@@ -86,7 +86,7 @@ body.no-scroll {
   opacity: 0;
 }
 .link-btn:hover {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .link-btn:hover span {
   width: 1.9191919192vw;
@@ -107,7 +107,7 @@ body.no-scroll {
   text-align: center;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   font-size: 12px;
   background-color: #fff;
@@ -126,7 +126,7 @@ body.no-scroll {
 .pill a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   font-size: 12px;
   font-family: "NeueMontreal-Medium", serif;
@@ -138,7 +138,7 @@ body.no-scroll {
   }
 }
 .pill a:hover {
-  color: #43BFAD;
+  color: #43bfad;
 }
 @media only screen and (min-width : 768px) {
   .pill a {
@@ -173,10 +173,10 @@ body.no-scroll {
   text-align: center;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   border-radius: 100px;
   box-sizing: border-box;
   font-family: "NeueMontreal-Medium", serif;
@@ -218,7 +218,7 @@ body.no-scroll {
   z-index: 0;
   position: absolute;
   border-radius: inherit;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -245,20 +245,24 @@ body.no-scroll {
 }
 .btn.btn-light {
   background-color: #fff;
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 .btn.btn-light:after {
   background-color: #fff;
 }
 .btn.btn-light svg path {
-  fill: #43BFAD;
+  fill: #43bfad;
 }
 .btn:hover:after {
   width: 102%;
   height: 105%;
 }
 
-.swiper-button, .arrow-holder, .pagination-number, .single-icon, .page-item {
+.swiper-button,
+.arrow-holder,
+.pagination-number,
+.single-icon,
+.page-item {
   width: 40px;
   height: 40px;
   border-radius: 100px;
@@ -270,38 +274,76 @@ body.no-scroll {
   transition: all 400ms ease 0ms;
 }
 @media only screen and (min-width : 1024px) {
-  .swiper-button, .arrow-holder, .pagination-number, .single-icon, .page-item {
+  .swiper-button,
+  .arrow-holder,
+  .pagination-number,
+  .single-icon,
+  .page-item {
     width: 2.7777777778vw;
     height: 2.7777777778vw;
   }
 }
-.swiper-button.white, .arrow-holder.white, .pagination-number.white, .single-icon.white, .page-item.white {
+.swiper-button.white,
+.arrow-holder.white,
+.pagination-number.white,
+.single-icon.white,
+.page-item.white {
   border-color: rgba(255, 255, 255, 0.5);
 }
-.swiper-button.white:hover, .arrow-holder.white:hover, .pagination-number.white:hover, .single-icon.white:hover, .page-item.white:hover {
+.swiper-button.white:hover,
+.arrow-holder.white:hover,
+.pagination-number.white:hover,
+.single-icon.white:hover,
+.page-item.white:hover {
   border-color: rgb(255, 255, 255);
 }
-.swiper-button span, .swiper-button a, .arrow-holder span, .arrow-holder a, .pagination-number span, .pagination-number a, .single-icon span, .single-icon a, .page-item span, .page-item a {
+.swiper-button span,
+.swiper-button a,
+.arrow-holder span,
+.arrow-holder a,
+.pagination-number span,
+.pagination-number a,
+.single-icon span,
+.single-icon a,
+.page-item span,
+.page-item a {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
-  .swiper-button span, .swiper-button a, .arrow-holder span, .arrow-holder a, .pagination-number span, .pagination-number a, .single-icon span, .single-icon a, .page-item span, .page-item a {
+  .swiper-button span,
+  .swiper-button a,
+  .arrow-holder span,
+  .arrow-holder a,
+  .pagination-number span,
+  .pagination-number a,
+  .single-icon span,
+  .single-icon a,
+  .page-item span,
+  .page-item a {
     font-size: 0.9090909091vw;
   }
 }
-.swiper-button img, .arrow-holder img, .pagination-number img, .single-icon img, .page-item img {
+.swiper-button img,
+.arrow-holder img,
+.pagination-number img,
+.single-icon img,
+.page-item img {
   width: 15px;
 }
-.swiper-button:hover, .arrow-holder:hover, .pagination-number:hover, .single-icon:hover, .page-item:hover {
+.swiper-button:hover,
+.arrow-holder:hover,
+.pagination-number:hover,
+.single-icon:hover,
+.page-item:hover {
   border: solid 1px #43bfad;
 }
 
 .text-hero {
   box-sizing: border-box;
-  padding-top: 160px;
+  padding-top: 80px;
   padding-bottom: 40px;
   padding-left: 10px;
   padding-right: 10px;
@@ -313,19 +355,19 @@ body.no-scroll {
 }
 @media only screen and (min-width : 768px) {
   .text-hero {
-    padding-top: 17.1717171717vw;
-    padding-bottom: 8.5858585859vw;
+    padding-top: 12.8787878788vw;
+    padding-bottom: 6.3383838384vw;
   }
 }
 @media only screen and (min-width : 1250px) {
   .text-hero {
-    padding-top: 13.6363636364vw;
-    padding-bottom: 8.5858585859vw;
+    padding-top: 10.2272727273vw;
+    padding-bottom: 6.4393939394vw;
   }
 }
 .text-hero h1 {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   text-align: center;
@@ -427,7 +469,7 @@ body.no-scroll {
 .single-post-article h3 {
   font-size: 16px;
   font-family: "PPNeueMontreal-Regular", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   margin-top: 10px;
   line-height: 1.3em;
 }
@@ -460,7 +502,7 @@ body.no-scroll {
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -508,10 +550,10 @@ body.no-scroll {
   text-align: center;
   padding: 12px 35px;
   display: block;
-  border: 1px solid #33393F;
+  border: 1px solid #33393f;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   transition: all 400ms ease 0ms;
   cursor: pointer;
@@ -536,21 +578,21 @@ body.no-scroll {
   color: #fff !important;
 }
 .filters-wrap .filters .single-filter label input + span {
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 .filters-wrap .filters .single-filter input:checked + span {
   color: #fff;
   background-color: red;
 }
 .filters-wrap .filters .single-filter input:checked + span {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
-  border-color: #43BFAD;
+  border-color: #43bfad;
 }
 .filters-wrap .filters .single-filter input + span:hover {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
-  border-color: #43BFAD;
+  border-color: #43bfad;
 }
 .filters-wrap .filters ul {
   text-align: center;
@@ -566,14 +608,14 @@ body.no-scroll {
 .filters-wrap .filters ul li .filter {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   font-family: "NeueMontreal-Medium", serif;
   min-width: 12.6262626263vw;
   width: 100%;
   cursor: pointer;
-  border: 1px solid #33393F;
-  color: #33393F;
+  border: 1px solid #33393f;
+  color: #33393f;
   transition: all 400ms ease 0ms;
   text-align: center;
   border-radius: 100px;
@@ -588,7 +630,7 @@ body.no-scroll {
 .filters-wrap .select2-container--default .select2-selection--single .select2-selection__rendered {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -636,9 +678,9 @@ body.no-scroll {
 .filters-wrap .select2-dropdown .select2-results__option {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 @media only screen and (min-width : 1600px) {
   .filters-wrap .select2-dropdown .select2-results__option {
@@ -649,12 +691,12 @@ body.no-scroll {
   display: block;
 }
 .filters-wrap .select2-dropdown .select2-results__option--highlighted {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
   border-radius: 5px;
 }
 .filters-wrap .select2-dropdown .select2-results__option[aria-selected=true] {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
   border-radius: 5px;
   font-weight: bold;
@@ -700,14 +742,14 @@ body.no-scroll {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
 }
 .filters-wrap .work-swiper-pagination .swiper-pagination-progressbar-fill {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   height: 3px;
   z-index: 1;
   top: 1px;
@@ -739,7 +781,7 @@ body.no-scroll {
 .pagination-wrap .pagination-content p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   transition: all 400ms ease 0ms;
   cursor: pointer;
@@ -760,10 +802,10 @@ body.no-scroll {
   align-items: center;
 }
 .pagination-wrap .pagination-content .left-arrow-holder:hover p {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .pagination-wrap .pagination-content .left-arrow-holder:hover .arrow-holder {
-  border-color: #43BFAD;
+  border-color: #43bfad;
 }
 .pagination-wrap .pagination-content .left-arrow-holder .arrow-holder {
   margin-right: 10px;
@@ -776,10 +818,10 @@ body.no-scroll {
   align-items: center;
 }
 .pagination-wrap .pagination-content .right-arrow-holder:hover p {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .pagination-wrap .pagination-content .right-arrow-holder:hover .arrow-holder {
-  border-color: #43BFAD;
+  border-color: #43bfad;
 }
 .pagination-wrap .pagination-content .right-arrow-holder .arrow-holder {
   margin-left: 10px;
@@ -805,19 +847,19 @@ body.no-scroll {
   margin-right: 0;
 }
 .pagination-wrap .pagination-content .pagination-pages .pagination-number span {
-  color: #43BFAD;
+  color: #43bfad;
   transition: all 400ms ease 0ms;
 }
 .pagination-wrap .pagination-content .pagination-pages .pagination-number.active {
-  background-color: #43BFAD;
-  border-color: #43BFAD;
+  background-color: #43bfad;
+  border-color: #43bfad;
 }
 .pagination-wrap .pagination-content .pagination-pages .pagination-number.active span {
   color: #fff;
 }
 .pagination-wrap .pagination-content .pagination-pages .pagination-number:hover {
-  background-color: #43BFAD;
-  border-color: #43BFAD;
+  background-color: #43bfad;
+  border-color: #43bfad;
 }
 .pagination-wrap .pagination-content .pagination-pages .pagination-number:hover span {
   color: #fff;
@@ -849,7 +891,7 @@ body.no-scroll {
   background-color: transparent;
 }
 .page-item.last:hover a, .page-item.first:hover a {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .page-item.next, .page-item.prev {
   display: none;
@@ -858,28 +900,34 @@ body.no-scroll {
   margin-right: 0;
 }
 .page-item span {
-  color: #43BFAD;
+  color: #43bfad;
   transition: all 400ms ease 0ms;
 }
 .page-item.active {
-  background-color: #43BFAD;
-  border-color: #43BFAD;
+  background-color: #43bfad;
+  border-color: #43bfad;
 }
-.page-item.active span, .page-item.active a {
+.page-item.active span,
+.page-item.active a {
   color: #fff;
 }
 .page-item:hover {
-  background-color: #43BFAD;
-  border-color: #43BFAD;
+  background-color: #43bfad;
+  border-color: #43bfad;
 }
-.page-item:hover span, .page-item:hover a {
+.page-item:hover span,
+.page-item:hover a {
   color: #fff;
 }
 
-.text-editor h2, .text-editor h3, .text-editor h4, .text-editor h5, .text-editor h6 {
+.text-editor h2,
+.text-editor h3,
+.text-editor h4,
+.text-editor h5,
+.text-editor h6 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   margin-bottom: 15px;
   margin-top: 40px;
   font-family: "freight-text-pro", serif;
@@ -889,12 +937,20 @@ body.no-scroll {
   font-stretch: normal;
 }
 @media only screen and (min-width : 1250px) {
-  .text-editor h2, .text-editor h3, .text-editor h4, .text-editor h5, .text-editor h6 {
+  .text-editor h2,
+  .text-editor h3,
+  .text-editor h4,
+  .text-editor h5,
+  .text-editor h6 {
     font-size: 1.7171717172vw;
   }
 }
 @media only screen and (min-width : 1024px) {
-  .text-editor h2, .text-editor h3, .text-editor h4, .text-editor h5, .text-editor h6 {
+  .text-editor h2,
+  .text-editor h3,
+  .text-editor h4,
+  .text-editor h5,
+  .text-editor h6 {
     margin-bottom: 25px;
     margin-top: 4.5454545455vw;
   }
@@ -902,14 +958,16 @@ body.no-scroll {
 .text-editor img {
   width: 100%;
 }
-.text-editor p, .text-editor ul li {
+.text-editor p,
+.text-editor ul li {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
-  .text-editor p, .text-editor ul li {
+  .text-editor p,
+  .text-editor ul li {
     font-size: 0.7575757576vw;
   }
 }
@@ -919,7 +977,7 @@ body.no-scroll {
 .text-editor ol li {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -941,7 +999,7 @@ body.no-scroll {
   left: 0;
   height: 5px;
   border-radius: 100px;
-  background-color: #43BFAD;
+  background-color: #43bfad;
 }
 @media only screen and (min-width : 1600px) {
   .text-editor ul li:before {
@@ -951,10 +1009,10 @@ body.no-scroll {
 .text-editor a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-decoration: none;
-  color: #43BFAD;
+  color: #43bfad;
   transition: all 400ms ease 0ms;
 }
 @media only screen and (min-width : 1600px) {
@@ -963,19 +1021,19 @@ body.no-scroll {
   }
 }
 .text-editor a:hover {
-  color: #1B4E4E;
+  color: #1b4e4e;
 }
 
 .select-2-holder .select2-container .selection .select2-selection {
   border: none;
-  border-bottom: 1px solid #4B4C4D;
-  color: #4B4C4D;
+  border-bottom: 1px solid #4b4c4d;
+  color: #4b4c4d;
   width: 100%;
   padding: 0;
   height: auto;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   padding-bottom: 10px;
   box-sizing: border-box;
@@ -989,7 +1047,7 @@ body.no-scroll {
 .select-2-holder .select2-container .selection .select2-selection__rendered {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   padding: 0;
 }
@@ -1054,9 +1112,9 @@ body.no-scroll {
 .select-2-holder .select2-container .select2-dropdown .select2-results__option {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 @media only screen and (min-width : 1600px) {
   .select-2-holder .select2-container .select2-dropdown .select2-results__option {
@@ -1067,12 +1125,12 @@ body.no-scroll {
   display: none !important;
 }
 .select-2-holder .select2-container .select2-dropdown .select2-results__option--highlighted {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
   border-radius: 5px;
 }
 .select-2-holder .select2-container .select2-dropdown .select2-results__option[aria-selected=true] {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
   border-radius: 5px;
   font-weight: bold;
@@ -1106,26 +1164,26 @@ body.no-scroll {
   border-radius: 0 0 15px 15px;
 }
 .select-2-holder.outline-select .select2-container .selection .select2-selection {
-  border: solid 2px #1B4E4E;
+  border: solid 2px #1b4e4e;
   background-color: transparent;
 }
 .select-2-holder.outline-select .select2-container .selection .select2-selection__rendered {
-  color: #1B4E4E;
+  color: #1b4e4e;
 }
 .select-2-holder.outline-select .select2-container .select2-dropdown {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
 }
 .select-2-holder.outline-select .select2-container .select2-dropdown .select2-results__option {
   color: #fff;
 }
 .select-2-holder.outline-select .select2-container--open .selection .select2-selection {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
 }
 .select-2-holder.outline-select .select2-container--open .selection .select2-selection__rendered {
   color: #fff;
 }
 /**
- * Swiper 8.4.2
+ * Swiper 8.4.4
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
@@ -1133,7 +1191,7 @@ body.no-scroll {
  *
  * Released under the MIT License
  *
- * Released on: September 15, 2022
+ * Released on: October 12, 2022
  */
 @font-face {
   font-family: swiper-icons;
@@ -2603,7 +2661,7 @@ header.darkHeader .logo-holder img.dark-logo {
   visibility: visible;
 }
 header.darkHeader nav ul li a {
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 header.mobile-menu-opened .logo-holder img.light-logo {
   opacity: 1;
@@ -2619,7 +2677,7 @@ header .mobile-menu {
   top: 0;
   height: calc(var(--vh, 1vh) * 100);
   width: 100%;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   z-index: 4;
   display: none;
 }
@@ -2635,7 +2693,7 @@ header .mobile-menu ul li {
 }
 header .mobile-menu ul li a {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   color: #fff;
@@ -2650,7 +2708,7 @@ header .mobile-menu .social-wrap {
   justify-content: space-between;
   padding: 15px;
   box-sizing: border-box;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   position: absolute;
   z-index: 2;
   left: 0;
@@ -2660,7 +2718,7 @@ header .mobile-menu .social-wrap {
 header .mobile-menu .social-wrap p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
 }
@@ -2691,9 +2749,9 @@ header nav ul li:last-child {
 header nav ul li a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "NeueMontreal-Medium", serif;
   transition: all 400ms ease 0ms;
 }
@@ -2703,7 +2761,7 @@ header nav ul li a {
   }
 }
 header nav ul li a:hover {
-  color: #43BFAD;
+  color: #43bfad;
 }
 header nav #menu-primary {
   display: none;
@@ -2737,7 +2795,7 @@ header nav .buttons-holder .mobile-opener {
   margin-left: 10px;
   background-color: #fff;
   border-radius: 100px;
-  border: 1px solid #EFF0F0;
+  border: 1px solid #eff0f0;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -2752,7 +2810,7 @@ header nav .buttons-holder .mobile-opener .opener-icon span {
   width: 15px;
   display: block;
   margin-bottom: 4px;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   position: relative;
   transition: all 400ms ease 0ms;
 }
@@ -2772,7 +2830,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 #site-footer {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   padding: 65px 15px 30px 15px;
   box-sizing: border-box;
 }
@@ -2792,7 +2850,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .newsletter-form h2 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   text-align: center;
   color: #fff;
   margin: auto;
@@ -2821,7 +2879,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .newsletter-form form .wpcf7-not-valid-tip {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-top: 5px;
   color: #fff;
@@ -2848,7 +2906,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   margin: 0;
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   max-width: 350px;
   width: 100%;
@@ -2894,7 +2952,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   width: 100%;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   display: block;
@@ -2922,7 +2980,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .newsletter-form form .input-holder input[type=email]:focus {
   outline: none;
   background-color: #fff;
-  color: #43BFAD;
+  color: #43bfad;
 }
 #site-footer .newsletter-form form .input-holder input[type=email]::-moz-placeholder {
   color: inherit;
@@ -2962,8 +3020,8 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 #site-footer .newsletter-form form .input-holder input[type=submit].focused, #site-footer .newsletter-form form .input-holder button.focused {
-  background-color: #43BFAD;
-  border-color: #43BFAD;
+  background-color: #43bfad;
+  border-color: #43bfad;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi45ODIiIGhlaWdodD0iMTUuODA3IiB2aWV3Qm94PSIwIDAgMTYuOTgyIDE1LjgwNyI+CiAgPGcgaWQ9Ikdyb3VwXzE2MzEiIGRhdGEtbmFtZT0iR3JvdXAgMTYzMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwLjcwNykiPgogICAgPGxpbmUgaWQ9IkxpbmVfNTI1IiBkYXRhLW5hbWU9IkxpbmUgNTI1IiB5Mj0iMTUuMjAyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNS4yMDIgNy4yMykgcm90YXRlKDkwKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxwYXRoIGlkPSJQYXRoXzY1IiBkYXRhLW5hbWU9IlBhdGggNjUiIGQ9Ik0wLDEwLjM2OFYwSDkuOTg3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNS41NjggNy4zMzEpIHJvdGF0ZSgxMzUpIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIvPgogIDwvZz4KPC9zdmc+Cg==);
 }
 #site-footer .newsletter-form form .input-holder input[type=submit].focused:hover, #site-footer .newsletter-form form .input-holder button.focused:hover {
@@ -2980,7 +3038,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   transition: all 400ms ease 0ms;
 }
 #site-footer .newsletter-form form .input-holder input[type=submit] svg path, #site-footer .newsletter-form form .input-holder input[type=submit] svg line, #site-footer .newsletter-form form .input-holder button svg path, #site-footer .newsletter-form form .input-holder button svg line {
-  stroke: #43BFAD;
+  stroke: #43bfad;
 }
 #site-footer .newsletter-form form .input-holder input[type=submit]:hover, #site-footer .newsletter-form form .input-holder button:hover {
   background-color: transparent;
@@ -3044,7 +3102,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .navigation nav h3 {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   font-family: "NeueMontreal-Medium", serif;
@@ -3082,7 +3140,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .navigation nav .locations-wrap .single-location h4 {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   margin-bottom: 10px;
@@ -3096,7 +3154,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .navigation nav .locations-wrap .single-location p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
 }
@@ -3108,7 +3166,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .navigation nav .locations-wrap .single-location p a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   transition: all 400ms ease 0ms;
@@ -3119,7 +3177,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 #site-footer .navigation nav .locations-wrap .single-location p a:hover {
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 #site-footer .navigation nav ul {
   display: flex;
@@ -3134,7 +3192,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .navigation nav ul li a {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   font-family: "NeueMontreal-Medium", serif;
@@ -3156,7 +3214,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .navigation nav ul li .sub-menu li a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   transition: all 400ms ease 0ms;
@@ -3167,7 +3225,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 #site-footer .navigation nav ul li .sub-menu li a:hover {
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 #site-footer .bottom-section {
   display: flex;
@@ -3209,7 +3267,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .bottom-section .social-wrap p {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   display: none;
@@ -3227,7 +3285,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .bottom-section .copyright {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   order: 3;
@@ -3266,7 +3324,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 #site-footer .bottom-section ul li a {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   transition: all 400ms ease 0ms;
@@ -3277,7 +3335,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 #site-footer .bottom-section ul li a:hover {
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 
 .template-page-container {
@@ -3306,7 +3364,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 .archive-page-container {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
 }
 .archive-page-container .all-news-wrap {
   transition: all 400ms ease 0ms;
@@ -3404,7 +3462,8 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
     border-radius: 4.0404040404vw;
   }
 }
-.template-single-expertise-page-container .hero-section .image-holder img, .template-single-expertise-page-container .hero-section .image-holder video {
+.template-single-expertise-page-container .hero-section .image-holder img,
+.template-single-expertise-page-container .hero-section .image-holder video {
   position: absolute;
   left: 0;
   top: 0;
@@ -3416,7 +3475,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-single-expertise-page-container .hero-section .image-holder h1 {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   color: #fff;
@@ -3489,7 +3548,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .second-section .left .left-content h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 25px;
 }
@@ -3533,7 +3592,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .second-section .right p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-left: auto;
 }
@@ -3559,7 +3618,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-single-expertise-page-container .third-section {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   padding: 70px 10px;
   box-sizing: border-box;
   opacity: 0;
@@ -3576,7 +3635,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .third-section h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   text-align: center;
   margin-bottom: 40px;
@@ -3660,12 +3719,12 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion .accordion-description .icon-holder:hover {
-  border: 1px solid #4B4C4D;
+  border: 1px solid #4b4c4d;
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion .accordion-description p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -3697,8 +3756,8 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion:hover .accordion-opener {
-  border-color: #43BFAD;
-  background-color: #43BFAD;
+  border-color: #43bfad;
+  background-color: #43bfad;
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion:hover .accordion-opener span {
   background-color: #fff;
@@ -3707,8 +3766,8 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   background-color: #fff;
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion.active .accordion-header .accordion-opener {
-  border-color: #43BFAD;
-  background-color: #43BFAD;
+  border-color: #43bfad;
+  background-color: #43bfad;
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion.active .accordion-header .accordion-opener span {
   background-color: #fff;
@@ -3719,7 +3778,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion h3 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -3751,14 +3810,14 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion .accordion-opener.active {
-  background-color: #43BFAD;
+  background-color: #43bfad;
 }
 .template-single-expertise-page-container .third-section .third-section-content .left .single-accordion .accordion-opener span {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #43BFAD;
+  background-color: #43bfad;
   display: block;
   width: 1px;
   height: 10px;
@@ -3804,23 +3863,19 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   width: 10.101010101vw;
   height: 10.101010101vw;
   border-radius: 10.101010101vw;
-  border: 1px solid rgba(75, 76, 77, 0.3);
+  border: 1px solid #43bfad;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 400ms ease 0ms;
 }
 .template-single-expertise-page-container .third-section .third-section-content .right .right-content .icon-holder img {
-  max-height: 4.797979798vw;
-  width: 60%;
-}
-.template-single-expertise-page-container .third-section .third-section-content .right .right-content .icon-holder:hover {
-  border: 1px solid #4B4C4D;
+  width: 65%;
 }
 .template-single-expertise-page-container .third-section .third-section-content .right .right-content p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -3840,9 +3895,9 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .third-section .third-section-content .right .right-content .controls-holder .counter {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
-  color: #43BFAD;
+  color: #43bfad;
 }
 @media only screen and (min-width : 1600px) {
   .template-single-expertise-page-container .third-section .third-section-content .right .right-content .controls-holder .counter {
@@ -3861,7 +3916,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .fourth-section {
   box-sizing: border-box;
   padding: 70px 30px;
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   display: flex;
   flex-wrap: wrap;
 }
@@ -3925,7 +3980,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .fourth-section .left .logo-holder .author-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
   color: #fff;
@@ -3933,13 +3988,13 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 @media only screen and (min-width : 1600px) {
   .template-single-expertise-page-container .fourth-section .left .logo-holder .author-name,
-.template-single-expertise-page-container .fourth-section .left .logo-holder .author-position {
+  .template-single-expertise-page-container .fourth-section .left .logo-holder .author-position {
     font-size: 0.7575757576vw;
   }
 }
 @media only screen and (min-width : 768px) {
   .template-single-expertise-page-container .fourth-section .left .logo-holder .author-name,
-.template-single-expertise-page-container .fourth-section .left .logo-holder .author-position {
+  .template-single-expertise-page-container .fourth-section .left .logo-holder .author-position {
     display: block;
   }
 }
@@ -3964,7 +4019,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .fourth-section .right p {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -3990,20 +4045,20 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .fourth-section .right .author-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
   color: #fff;
 }
 @media only screen and (min-width : 1600px) {
   .template-single-expertise-page-container .fourth-section .right .author-name,
-.template-single-expertise-page-container .fourth-section .right .author-position {
+  .template-single-expertise-page-container .fourth-section .right .author-position {
     font-size: 0.7575757576vw;
   }
 }
 @media only screen and (min-width : 768px) {
   .template-single-expertise-page-container .fourth-section .right .author-name,
-.template-single-expertise-page-container .fourth-section .right .author-position {
+  .template-single-expertise-page-container .fourth-section .right .author-position {
     display: none;
   }
 }
@@ -4025,7 +4080,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .fifth-section h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 15px;
 }
@@ -4042,7 +4097,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-single-expertise-page-container .fifth-section p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-bottom: 25px;
 }
@@ -4088,7 +4143,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-blog-page-container .blog-hero h1 {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   text-align: center;
@@ -4101,7 +4156,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .blog-hero p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-top: 30px;
   text-align: center;
@@ -4159,7 +4214,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts-header p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -4170,7 +4225,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts {
   padding: 10px;
   padding-bottom: 40px;
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -4189,13 +4244,13 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts.first {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
 }
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts.second {
-  background-color: #E9B140;
+  background-color: #e9b140;
 }
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts.third {
-  background-color: #43BFAD;
+  background-color: #43bfad;
 }
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts .left {
   width: 100%;
@@ -4324,7 +4379,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts .right .right-content .counter span {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
 }
@@ -4336,7 +4391,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts .right .right-content h2 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   color: #fff;
   font-family: "freight-text-pro", serif;
   font-display: auto;
@@ -4358,7 +4413,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .featured-blog-posts-wrap .featured-blog-posts .right .right-content p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   display: none;
@@ -4389,7 +4444,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   transform: rotate(180deg);
 }
 .template-blog-page-container .grey-section {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
 }
 .template-blog-page-container .grey-section .featured-categories-wrap {
   padding: 70px 30px;
@@ -4425,7 +4480,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-blog-page-container .grey-section .featured-categories-wrap .single-category-wrap h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 25px;
 }
@@ -4492,7 +4547,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   margin-bottom: 30px;
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
 }
 @media only screen and (min-width : 768px) {
@@ -4548,7 +4603,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 .single-post-page-container {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   padding-top: 120px;
   box-sizing: border-box;
 }
@@ -4593,7 +4648,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .single-post-page-container .single-post-hero .top-section .top-section-content h1 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 20px;
 }
@@ -4610,7 +4665,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .single-post-page-container .single-post-hero .top-section .top-section-content p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -4809,7 +4864,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .single-post-page-container .similar-posts-wrap .similar-posts-header h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 25px;
 }
@@ -4927,7 +4982,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .front-page-container .section-hero .section-content .section-title {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   color: #fff;
@@ -4942,7 +4997,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   width: 240px;
   cursor: pointer;
   background-color: #fff;
-  color: #4B4C4D;
+  color: #4b4c4d;
   padding: 15px 45px;
 }
 @media only screen and (min-width : 768px) {
@@ -4993,7 +5048,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   vertical-align: middle;
 }
 .front-page-container .section-hero .section-content .btn span svg path {
-  fill: #43BFAD;
+  fill: #43bfad;
 }
 @media only screen and (min-width : 1250px) {
   .front-page-container .section-hero .section-content .btn:hover {
@@ -5010,7 +5065,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
     opacity: 1;
     width: auto;
     visibility: visible;
-    color: #4B4C4D;
+    color: #4b4c4d;
     transition: all 400ms ease 400ms;
   }
 }
@@ -5041,7 +5096,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   text-align: center;
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 20px;
   text-transform: capitalize;
@@ -5084,7 +5139,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   text-align: center;
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   font-size: 14px;
 }
@@ -5097,7 +5152,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   .front-page-container .description-section .section-description p {
     font-size: 16px;
     line-height: 1.5em;
-    color: #4B4C4D;
+    color: #4b4c4d;
     font-family: "PPNeueMontreal-Regular", serif;
   }
 }
@@ -5179,7 +5234,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   padding-top: 130%;
   border-radius: 20px;
   overflow: hidden;
-  background-color: #4B4C4D;
+  background-color: #4b4c4d;
 }
 @media only screen and (min-width : 768px) {
   .front-page-container .images-with-description-section .section-content .images-holder .image-holder .image {
@@ -5232,7 +5287,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .images-with-description-section .section-content .info-holder .section-description p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
 }
@@ -5251,7 +5306,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .front-page-container .logos-section {
   box-sizing: border-box;
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   padding: 60px 10px 10px 10px;
 }
 @media only screen and (min-width : 768px) {
@@ -5268,7 +5323,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .logos-section .section-title {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   text-align: center;
   margin-bottom: 40px;
@@ -5288,9 +5343,6 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
     margin-bottom: 3.6363636364vw;
   }
 }
-.front-page-container .logos-section .swiper-wrapper {
-  transition-timing-function: linear;
-}
 .front-page-container .logos-section .logos {
   margin-bottom: 60px;
   opacity: 0;
@@ -5304,36 +5356,40 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
     margin-bottom: 11.3636363636vw;
   }
 }
-.front-page-container .logos-section .logos .swiper-slide {
-  margin-right: 50px;
-  width: 40%;
+.front-page-container .logos-section .logos .marquee {
+  overflow: hidden;
 }
-@media only screen and (min-width : 1024px) {
-  .front-page-container .logos-section .logos .swiper-slide {
-    margin-right: 4vw;
-  }
+.front-page-container .logos-section .logos .marquee .marquee__container {
+  display: flex;
+  justify-content: flex-start;
 }
-.front-page-container .logos-section .logos .swiper-slide .slide-content {
-  text-align: center;
-  height: 30px;
+.front-page-container .logos-section .logos .marquee .marquee__inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
-@media only screen and (min-width : 768px) {
-  .front-page-container .logos-section .logos .swiper-slide .slide-content {
-    height: 25px;
-  }
-}
-@media only screen and (min-width : 1024px) {
-  .front-page-container .logos-section .logos .swiper-slide .slide-content {
-    height: 2.4vw;
-  }
-}
-.front-page-container .logos-section .logos .swiper-slide .slide-content img {
-  height: 100%;
-  width: 80%;
+.front-page-container .logos-section .logos .marquee .marquee__inner--slide {
+  margin: 0 6vw;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 @media only screen and (min-width : 768px) {
-  .front-page-container .logos-section .logos .swiper-slide .slide-content img {
-    width: 100%;
+  .front-page-container .logos-section .logos .marquee .marquee__inner--slide {
+    margin: 0 3vw;
+  }
+}
+.front-page-container .logos-section .logos .marquee .marquee__inner--slide-content {
+  width: 100%;
+}
+.front-page-container .logos-section .logos .marquee .marquee__inner--slide-content img {
+  width: 100%;
+  max-height: 8vw;
+}
+@media only screen and (min-width : 768px) {
+  .front-page-container .logos-section .logos .marquee .marquee__inner--slide-content img {
+    max-height: 3.5vw;
   }
 }
 .front-page-container .logos-section .image-holder {
@@ -5341,7 +5397,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   border-radius: 40px;
   overflow: hidden;
   padding-top: 135%;
-  background-color: #4B4C4D;
+  background-color: #4b4c4d;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 @media only screen and (min-width : 768px) {
@@ -5412,7 +5468,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .logos-section .image-holder .image-content .section-description p {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   color: #fff;
 }
@@ -5426,7 +5482,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   color: #fff;
 }
 .front-page-container .logos-section .image-holder .link-btn:hover {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .front-page-container .images-with-description-2-section {
   margin-top: 65px;
@@ -5447,7 +5503,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .images-with-description-2-section .section-content .section-title {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   text-align: center;
   margin-bottom: 60px;
@@ -5497,7 +5553,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .images-with-description-2-section .section-content .columns .col.image-col .image-holder {
   padding-top: 135.8%;
   position: relative;
-  background-color: #4B4C4D;
+  background-color: #4b4c4d;
   border-radius: 20px;
   overflow: hidden;
   opacity: 0;
@@ -5560,7 +5616,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .images-with-description-2-section .section-content .columns .col.info-col .col-title {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   font-family: "NeueMontreal-Medium", serif;
   margin-bottom: 20px;
@@ -5573,7 +5629,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .images-with-description-2-section .section-content .columns .col.info-col .col-description p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -5585,7 +5641,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   margin-top: 35px;
 }
 .front-page-container .services-section {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   padding-bottom: 0;
   box-sizing: border-box;
   margin-top: 50px;
@@ -5643,7 +5699,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .services-section .section-content .info-holder .section-title {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   color: #fff;
   margin-bottom: 32px;
@@ -5669,7 +5725,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   color: #fff;
 }
 .front-page-container .services-section .section-content .info-holder .link-btn:hover {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .front-page-container .services-section .section-content .services-holder {
   width: 100%;
@@ -5739,7 +5795,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   box-sizing: border-box;
   border-radius: 20px;
   overflow: hidden;
-  background-color: #235A5A;
+  background-color: #235a5a;
   cursor: pointer;
   transition: all 400ms ease 0ms;
 }
@@ -5780,7 +5836,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .services-section .section-content .services-holder .service-holder .service .service-title {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   color: #fff;
   margin-bottom: 13px;
   font-family: "freight-text-pro", serif;
@@ -5797,7 +5853,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .services-section .section-content .services-holder .service-holder .service .service-description p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
 }
@@ -5817,7 +5873,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .work-section .section-title {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   text-align: center;
   margin-top: 70px;
@@ -5881,7 +5937,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .work-section .swiper-controls .controls-holder .mobile-link a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -6020,13 +6076,13 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   transform: translateY(-50%);
 }
 .front-page-container .work-section .work-swiper .work-swiper-pagination .swiper-pagination-progressbar-fill {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   height: 3px;
   z-index: 1;
   top: 1px;
 }
 .front-page-container .testimonials-section {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
 }
 .front-page-container .testimonials-section .section-content {
   padding: 70px 30px;
@@ -6097,20 +6153,20 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .testimonials-section .section-content .left .logo .author-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
   display: none;
 }
 @media only screen and (min-width : 1600px) {
   .front-page-container .testimonials-section .section-content .left .logo .author-name,
-.front-page-container .testimonials-section .section-content .left .logo .author-position {
+  .front-page-container .testimonials-section .section-content .left .logo .author-position {
     font-size: 0.7575757576vw;
   }
 }
 @media only screen and (min-width : 768px) {
   .front-page-container .testimonials-section .section-content .left .logo .author-name,
-.front-page-container .testimonials-section .section-content .left .logo .author-position {
+  .front-page-container .testimonials-section .section-content .left .logo .author-position {
     display: block;
   }
 }
@@ -6133,7 +6189,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description p {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -6158,19 +6214,19 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
 }
 @media only screen and (min-width : 1600px) {
   .front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-name,
-.front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-position {
+  .front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-position {
     font-size: 0.7575757576vw;
   }
 }
 @media only screen and (min-width : 768px) {
   .front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-name,
-.front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-position {
+  .front-page-container .testimonials-section .section-content .right .swiper .swiper-wrapper .swiper-slide .slide-content .testimonial-description .author-position {
     display: none;
   }
 }
@@ -6194,7 +6250,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 .template-contact-page-container {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   padding-top: 70px;
 }
 @media only screen and (min-width : 768px) {
@@ -6205,7 +6261,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .character-limit {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: right;
   margin-bottom: 5px;
@@ -6294,7 +6350,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .template-contact-hero .right .right-content h1 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 30px;
   line-height: 1.1em;
@@ -6312,7 +6368,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .template-contact-hero .right .right-content .description {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -6321,11 +6377,11 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-contact-page-container .template-contact-hero .right .right-content .description a {
-  color: #43BFAD;
+  color: #43bfad;
   transition: all 400ms ease 0ms;
 }
 .template-contact-page-container .template-contact-hero .right .right-content .description a:hover {
-  color: #1B4E4E;
+  color: #1b4e4e;
 }
 .template-contact-page-container .form-wrap {
   box-sizing: border-box;
@@ -6369,7 +6425,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-header h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 20px;
 }
@@ -6386,7 +6442,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-header p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -6397,7 +6453,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-holder form .wpcf7-not-valid-tip {
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-top: 5px;
   color: rgb(187, 2, 2);
@@ -6415,7 +6471,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   margin-top: 10px;
   font-size: 12px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -6432,7 +6488,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   z-index: 0;
   position: absolute;
   border-radius: inherit;
-  background-color: #43BFAD;
+  background-color: #43bfad;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -6519,7 +6575,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-holder form h3 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   margin-bottom: 25px;
   font-family: "freight-text-pro", serif;
   font-display: auto;
@@ -6548,7 +6604,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder label {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-bottom: 10px;
   width: 100%;
@@ -6561,14 +6617,14 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder textarea {
-  border: 1px solid #4B4C4D;
+  border: 1px solid #4b4c4d;
   border-radius: 20px;
   width: 100%;
   height: 160px;
   resize: none;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   box-sizing: border-box;
   padding: 10px;
@@ -6586,33 +6642,33 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder textarea::-moz-placeholder {
-  color: #4B4C4D;
+  color: #4b4c4d;
   opacity: 1;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder textarea::placeholder {
-  color: #4B4C4D;
+  color: #4b4c4d;
   opacity: 1;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder textarea:focus {
   outline: none;
-  border-color: #43BFAD;
-  color: #43BFAD;
+  border-color: #43bfad;
+  color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder textarea:focus::-moz-placeholder {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder textarea:focus::placeholder {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder input {
   border: none;
-  border-bottom: 1px solid #4B4C4D;
-  color: #4B4C4D;
+  border-bottom: 1px solid #4b4c4d;
+  color: #4b4c4d;
   width: 100%;
   padding: 0;
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   padding-bottom: 10px;
   box-sizing: border-box;
@@ -6623,23 +6679,23 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder input::-moz-placeholder {
-  color: #4B4C4D;
+  color: #4b4c4d;
   opacity: 1;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder input::placeholder {
-  color: #4B4C4D;
+  color: #4b4c4d;
   opacity: 1;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder input:focus {
   outline: none;
-  border-color: #43BFAD;
-  color: #43BFAD;
+  border-color: #43bfad;
+  color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder input:focus::-moz-placeholder {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .input-container .input-holder input:focus::placeholder {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container {
   width: 100%;
@@ -6668,7 +6724,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap h4 {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-bottom: 10px;
   width: 100%;
@@ -6711,7 +6767,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .checkbox-holder .wpcf7-list-item, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-checkbox .wpcf7-list-item, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-radio .wpcf7-list-item {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   font-family: "PPNeueMontreal-Regular", serif;
   min-width: 12.6262626263vw;
@@ -6768,21 +6824,21 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   color: #fff !important;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .checkbox-holder .wpcf7-list-item label input + span, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-checkbox .wpcf7-list-item label input + span, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-radio .wpcf7-list-item label input + span {
-  color: #4B4C4D;
+  color: #4b4c4d;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .checkbox-holder .wpcf7-list-item input:checked + span, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-checkbox .wpcf7-list-item input:checked + span, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-radio .wpcf7-list-item input:checked + span {
   color: #fff;
   background-color: red;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .checkbox-holder .wpcf7-list-item input:checked + span, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-checkbox .wpcf7-list-item input:checked + span, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-radio .wpcf7-list-item input:checked + span {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
-  border-color: #43BFAD;
+  border-color: #43bfad;
 }
 .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .checkbox-holder .wpcf7-list-item input + span:hover, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-checkbox .wpcf7-list-item input + span:hover, .template-contact-page-container .form-wrap .from-content .form-holder form .checkbox-container .checkbox-wrap .wpcf7-radio .wpcf7-list-item input + span:hover {
-  background-color: #43BFAD;
+  background-color: #43bfad;
   color: #fff;
-  border-color: #43BFAD;
+  border-color: #43bfad;
 }
 
 .hasDatepicker {
@@ -6803,7 +6859,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 .ui-widget-header {
-  background: #43BFAD !important;
+  background: #43bfad !important;
   border: none;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
@@ -6812,40 +6868,40 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   transition: all 400ms ease 0ms;
 }
 .ui-widget-header a:hover {
-  background: #43BFAD;
-  border: 1px solid #1B4E4E;
+  background: #43bfad;
+  border: 1px solid #1b4e4e;
   cursor: pointer;
 }
 
 .ui-widget.ui-widget-content {
-  border: 1px solid #4B4C4D;
+  border: 1px solid #4b4c4d;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default {
-  background: #43BFAD;
+  background: #43bfad;
   font-family: "PPNeueMontreal-Regular", serif;
-  border: 1px solid #43BFAD;
+  border: 1px solid #43bfad;
   color: #fff;
   transition: all 400ms ease 0ms;
 }
 .ui-state-default:hover, .ui-widget-content .ui-state-default:hover {
-  border-color: #1B4E4E;
+  border-color: #1b4e4e;
 }
 
 .ui-state-highlight, .ui-widget-content .ui-state-highlight {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   color: #fff;
-  border: 1px solid #1B4E4E;
+  border: 1px solid #1b4e4e;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active {
   background-color: #fff;
-  color: #43BFAD;
-  border: 1px solid #1B4E4E;
+  color: #43bfad;
+  border: 1px solid #1b4e4e;
 }
 
 .template-thankyou-page-container {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
 }
 .template-thankyou-page-container .text-hero .hero-content {
   padding: 0 50px;
@@ -6858,7 +6914,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-thankyou-page-container .text-hero h1 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
 }
 @media only screen and (min-width : 768px) {
@@ -6869,7 +6925,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-thankyou-page-container .text-hero p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   margin-top: 25px;
   text-align: center;
@@ -6921,7 +6977,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-thankyou-page-container .latest-posts-wrap .latest-posts-content .latest-posts-hero h2 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -6958,7 +7014,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .text-hero h1 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
 }
 @media only screen and (min-width : 768px) {
@@ -7047,7 +7103,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .first-section .first-section-holder .right .right-content h2 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -7068,7 +7124,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .first-section .first-section-holder .right .right-content p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -7077,7 +7133,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-about-page-container .ournumbers-section {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   padding: 60px 10px;
   box-sizing: border-box;
 }
@@ -7123,7 +7179,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .ournumbers-section .section-content .info-holder .section-title {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin: auto;
   margin-bottom: 30px;
@@ -7147,7 +7203,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-about-page-container .ournumbers-section .section-content .info-holder .link-btn:hover {
-  color: #43BFAD;
+  color: #43bfad;
 }
 .template-about-page-container .ournumbers-section .section-content .ournumbers-holder {
   width: 100%;
@@ -7226,7 +7282,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-about-page-container .ournumbers-section .section-content .ournumbers-holder .single-box-holder .single-box .single-box-title {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   margin-bottom: 13px;
@@ -7239,7 +7295,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .ournumbers-section .section-content .ournumbers-holder .single-box-holder .single-box .single-box-description p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -7253,14 +7309,14 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-about-page-container .history-section .history-section-holder {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   box-sizing: border-box;
   padding: 0px;
 }
 @media only screen and (min-width : 768px) {
   .template-about-page-container .history-section .history-section-holder {
     padding: 20px;
-    background-color: #1B4E4E;
+    background-color: #1b4e4e;
   }
 }
 @media only screen and (min-width : 1024px) {
@@ -7272,14 +7328,14 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   padding: 10px;
   padding-bottom: 70px;
   border-radius: 0 0 20px 20px;
-  background-color: #235A5A;
+  background-color: #235a5a;
 }
 @media only screen and (min-width : 768px) {
   .template-about-page-container .history-section .history-section-holder .history-section-content {
     padding: 0px;
     padding-bottom: 6.0606060606vw;
     border-radius: 1.5151515152vw;
-    background-color: #235A5A;
+    background-color: #235a5a;
     padding: 5px;
     box-sizing: border-box;
     padding: 10px;
@@ -7412,7 +7468,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-about-page-container .history-section .history-section-holder .history-section-content .top-section .right h2 {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   color: #fff;
@@ -7421,21 +7477,6 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   .template-about-page-container .history-section .history-section-holder .history-section-content .top-section .right h2 {
     font-size: 6.5656565657vw;
   }
-}
-.template-about-page-container .history-section .history-section-holder .history-section-content .top-section .right .controls-holder {
-  display: flex;
-  width: 100%;
-  margin-top: 30px;
-  justify-content: center;
-}
-@media only screen and (min-width : 1024px) {
-  .template-about-page-container .history-section .history-section-holder .history-section-content .top-section .right .controls-holder {
-    display: none;
-  }
-}
-.template-about-page-container .history-section .history-section-holder .history-section-content .top-section .right .controls-holder .swiper-button:first-child {
-  margin-right: 18px;
-  transform: rotate(180deg);
 }
 .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section {
   padding-left: 0.7575757576vw;
@@ -7454,7 +7495,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .swiper-content {
   padding: 50px 30px;
   border-radius: 20px;
-  background-color: #194C4C;
+  background-color: #194c4c;
   cursor: pointer;
   transition: all 400ms ease 0ms;
   text-align: center;
@@ -7468,12 +7509,12 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .swiper-content {
     border-radius: 2.0202020202vw;
     padding: 5.0505050505vw 2.0202020202vw;
-    background-color: #1B4E4E;
+    background-color: #1b4e4e;
   }
 }
 .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .swiper-content .slide-year {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   margin-bottom: 13px;
@@ -7487,7 +7528,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .swiper-content .slide-description {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
   font-size: 15px;
@@ -7497,20 +7538,30 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
     font-size: 0.7575757576vw;
   }
 }
-.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .history-swiper-pagination {
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder {
+  display: flex;
+  align-items: center;
+  margin: 40px auto 0;
+  flex-direction: column;
+}
+@media only screen and (min-width : 768px) {
+  .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder {
+    margin: 4.0404040404vw auto 0;
+    flex-direction: row;
+  }
+}
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .history-swiper-pagination {
   position: relative;
   background-color: transparent;
   height: 5px;
   width: calc(100vw - 20);
-  margin: 40px auto 0;
 }
 @media only screen and (min-width : 768px) {
-  .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .history-swiper-pagination {
+  .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .history-swiper-pagination {
     width: calc(100vw - 5.5555555556vw);
-    margin: 4.0404040404vw auto 0;
   }
 }
-.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .history-swiper-pagination:after {
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .history-swiper-pagination:after {
   content: "";
   display: block;
   width: 100%;
@@ -7521,16 +7572,37 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   left: 0;
   transform: translateY(-50%);
 }
-.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .history-swiper-pagination .swiper-pagination-progressbar-fill {
-  background-color: #43BFAD;
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .history-swiper-pagination .swiper-pagination-progressbar-fill {
+  background-color: #43bfad;
   height: 3px;
   z-index: 1;
   top: 1px;
 }
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .controls-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+}
+@media only screen and (min-width : 768px) {
+  .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .controls-holder {
+    margin: 0;
+  }
+}
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .controls-holder .swiper-button {
+  margin: 9px;
+}
+@media only screen and (min-width : 768px) {
+  .template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .controls-holder .swiper-button {
+    margin: 0 0 0 18px;
+  }
+}
+.template-about-page-container .history-section .history-section-holder .history-section-content .bottom-section .pagination-holder .controls-holder .swiper-button:first-child {
+  transform: rotate(180deg);
+}
 .template-about-page-container .history-section .history-section-holder .ownerword-section {
   box-sizing: border-box;
   padding: 70px 30px;
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   display: flex;
   flex-wrap: wrap;
   opacity: 0;
@@ -7600,7 +7672,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
   color: #fff;
@@ -7608,13 +7680,13 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 @media only screen and (min-width : 1600px) {
   .template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-name,
-.template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-position {
+  .template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-position {
     font-size: 0.7575757576vw;
   }
 }
 @media only screen and (min-width : 768px) {
   .template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-name,
-.template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-position {
+  .template-about-page-container .history-section .history-section-holder .ownerword-section .left .author-holder .author-position {
     display: block;
   }
 }
@@ -7641,7 +7713,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .history-section .history-section-holder .ownerword-section .right p {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -7670,20 +7742,20 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
   color: #fff;
 }
 @media only screen and (min-width : 1600px) {
   .template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-name,
-.template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-position {
+  .template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-position {
     font-size: 0.7575757576vw;
   }
 }
 @media only screen and (min-width : 768px) {
   .template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-name,
-.template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-position {
+  .template-about-page-container .history-section .history-section-holder .ownerword-section .right .author-holder .author-position {
     display: none;
   }
 }
@@ -7699,7 +7771,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-about-page-container .team-section .text-hero h2 {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   text-align: center;
@@ -7775,7 +7847,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-about-page-container .team-section .team-holder .single-team .image-holder a {
   display: inline-block;
-  border: 1px solid #43BFAD;
+  border: 1px solid #43bfad;
   border-radius: 100%;
   cursor: pointer;
   width: 25px;
@@ -7790,7 +7862,8 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   height: 100%;
   vertical-align: bottom;
 }
-.template-about-page-container .team-section .team-holder .single-team .image-holder a svg ellipse, .template-about-page-container .team-section .team-holder .single-team .image-holder a svg path {
+.template-about-page-container .team-section .team-holder .single-team .image-holder a svg ellipse,
+.template-about-page-container .team-section .team-holder .single-team .image-holder a svg path {
   transition: all 400ms ease 0ms;
 }
 @media only screen and (min-width : 768px) {
@@ -7829,7 +7902,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-about-page-container .team-section .team-holder .single-team .team-info .team-title h3 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -7844,7 +7917,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-about-page-container .team-section .team-holder .single-team .team-info .team-title a {
   display: none;
-  border: 1px solid #43BFAD;
+  border: 1px solid #43bfad;
   border-radius: 100%;
   cursor: pointer;
   width: 2.0202020202vw;
@@ -7860,19 +7933,20 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   height: 100%;
   vertical-align: bottom;
 }
-.template-about-page-container .team-section .team-holder .single-team .team-info .team-title a svg ellipse, .template-about-page-container .team-section .team-holder .single-team .team-info .team-title a svg path {
+.template-about-page-container .team-section .team-holder .single-team .team-info .team-title a svg ellipse,
+.template-about-page-container .team-section .team-holder .single-team .team-info .team-title a svg path {
   transition: all 400ms ease 0ms;
 }
 .template-about-page-container .team-section .team-holder .single-team .team-info .team-title a:hover svg ellipse {
   fill: #fff;
 }
 .template-about-page-container .team-section .team-holder .single-team .team-info .team-title a:hover svg path {
-  fill: #43BFAD;
+  fill: #43bfad;
 }
 .template-about-page-container .team-section .team-holder .single-team .team-info .team-position {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -7882,7 +7956,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 .template-expertise-page-container {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
 }
 .template-expertise-page-container .expertise-hero {
   box-sizing: border-box;
@@ -7907,7 +7981,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .expertise-hero h1 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 30px;
 }
@@ -8102,7 +8176,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .second-section .second-section-holder .right .right-content h2 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "freight-text-pro", serif;
   font-display: auto;
   font-style: normal;
@@ -8123,7 +8197,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .second-section .second-section-holder .right .right-content p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -8132,7 +8206,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-expertise-page-container .third-section {
-  background-color: #1B4E4E;
+  background-color: #1b4e4e;
   padding-top: 65px;
   padding-bottom: 65px;
 }
@@ -8144,7 +8218,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 .template-expertise-page-container .third-section h2 {
   font-size: 48px;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   line-height: 1.1em;
   color: #fff;
@@ -8170,7 +8244,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .third-section h3 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   color: #fff;
   text-align: center;
@@ -8267,7 +8341,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   padding-top: 130%;
   border-radius: 20px;
   overflow: hidden;
-  background-color: #4B4C4D;
+  background-color: #4b4c4d;
 }
 @media only screen and (min-width : 768px) {
   .template-expertise-page-container .third-section .images-with-description-section .section-content .images-holder .image-holder .image {
@@ -8318,7 +8392,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .third-section .images-with-description-section .section-content .info-holder .section-description p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
 }
@@ -8410,7 +8484,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .third-section .services-holder .service-holder .service .service-title {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   color: #fff;
   margin-bottom: 13px;
   font-family: "freight-text-pro", serif;
@@ -8438,7 +8512,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .third-section .services-holder .service-holder .service .service-description p {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   color: #fff;
 }
@@ -8471,7 +8545,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .fourth-section h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 40px;
   text-align: center;
@@ -8570,7 +8644,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   position: absolute;
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   color: #fff;
   left: 50%;
@@ -8603,7 +8677,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .fourth-section .expertise-list .single-expertise p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
   text-align: center;
   margin: auto;
@@ -8646,7 +8720,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-expertise-page-container .fifth-section h2 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
   margin-bottom: 25px;
 }
@@ -8679,7 +8753,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-faq-page-container .faq-content-wrap .faq-content {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
   border-radius: 20px;
   padding: 0 10px;
   box-sizing: border-box;
@@ -8728,7 +8802,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .left h3 {
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
 }
 @media only screen and (min-width : 768px) {
@@ -8760,15 +8834,15 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq:hover .faq-header .faq-opener {
-  border: 1px solid #43BFAD;
-  background-color: #43BFAD;
+  border: 1px solid #43bfad;
+  background-color: #43bfad;
 }
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq:hover .faq-header .faq-opener span {
   background-color: #fff;
 }
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq.active .faq-header .faq-opener {
-  border: 1px solid #43BFAD;
-  background-color: #43BFAD;
+  border: 1px solid #43bfad;
+  background-color: #43bfad;
 }
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq.active .faq-header .faq-opener span {
   background-color: #fff;
@@ -8784,7 +8858,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq .faq-header h4 {
   font-size: 22px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   max-width: 90%;
   font-family: "freight-text-pro", serif;
   font-display: auto;
@@ -8801,7 +8875,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   width: 30px;
   height: 30px;
   border-radius: 30px;
-  border: 1px solid #EFF0F0;
+  border: 1px solid #eff0f0;
   position: relative;
   transition: all 400ms ease 0ms;
 }
@@ -8813,14 +8887,14 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq .faq-header .faq-opener.active {
-  background-color: #43BFAD;
+  background-color: #43bfad;
 }
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq .faq-header .faq-opener span {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #43BFAD;
+  background-color: #43bfad;
   display: block;
   width: 1px;
   height: 10px;
@@ -8842,7 +8916,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq .faq-description p, .template-faq-page-container .faq-content-wrap .faq-content .faq-wrap .single-faq-category .right .single-faq .faq-description a {
   font-size: 14px;
   line-height: 1.5em;
-  color: #4B4C4D;
+  color: #4b4c4d;
   font-family: "PPNeueMontreal-Regular", serif;
 }
 @media only screen and (min-width : 1600px) {
@@ -8852,7 +8926,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 
 .template-work-page-container {
-  background-color: #EFF0F0;
+  background-color: #eff0f0;
 }
 .template-work-page-container .work-content-wrap {
   padding-bottom: 20px;
@@ -8879,7 +8953,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 @media only screen and (min-width : 768px) {
   .template-work-page-container .work-content-wrap .work-content .all-posts-hero {
     padding-right: 0px;
-    padding-top: 9.595959596vw;
+    padding-top: 4.797979798vw;
     border-radius: 1.5151515152vw 1.5151515152vw 0 0;
   }
 }
@@ -8888,7 +8962,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   margin-bottom: 4.1414141414vw;
   font-size: 30px;
   font-family: "NeueMontreal-Medium", serif;
-  color: #4B4C4D;
+  color: #4b4c4d;
   line-height: 1.1em;
 }
 @media only screen and (min-width : 768px) {

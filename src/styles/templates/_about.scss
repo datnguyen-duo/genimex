@@ -1,812 +1,818 @@
-.template-about-page-container{
-    .text-hero{
-        h1{
-            @include title-2();
-        }
+.template-about-page-container {
+  .text-hero {
+    h1 {
+      @include title-2();
     }
+  }
 
-    .first-section{
-        .first-section-holder{
-            display: flex;
-            flex-wrap: wrap;
+  .first-section {
+    .first-section-holder {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 10px;
+      padding-bottom: 50px;
+      box-sizing: border-box;
+      @include fadeIn();
+      @include transition(all, 800ms, ease, 400ms);
+
+      @media #{$tablet-s} {
+        padding: 20px;
+        padding-bottom: px-to-vw(110);
+      }
+
+      @media #{$tablet-l} {
+        padding: px-to-vw(30);
+        padding-bottom: px-to-vw(110);
+      }
+
+      .left {
+        width: 100%;
+
+        @media #{$tablet-l} {
+          width: 60%;
+        }
+
+        .image-holder {
+          padding-top: 100%;
+          overflow: hidden;
+          position: relative;
+          border-radius: 20px;
+
+          @media #{$tablet-s} {
+            padding-top: 69%;
+            border-radius: px-to-vw(30);
+          }
+
+          img {
+            position: absolute;
+            left: 0;
+            top: 0;
             width: 100%;
-            padding: 10px;;
-            padding-bottom: 50px;
-            box-sizing: border-box;
-            @include fadeIn();
-            @include transition(all, 800ms, ease, 400ms);
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+
+      .right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        @media #{$tablet-l} {
+          width: 40%;
+          text-align: left;
+        }
+
+        .right-content {
+          padding-right: px-to-vw(140);
+          padding-left: px-to-vw(140);
+          margin-top: 70px;
+
+          @media #{$tablet-l} {
+            margin-top: 0px;
+          }
+
+          h2 {
+            @include title-3();
+            @include font2R();
+            margin-bottom: 15px;
 
             @media #{$tablet-s} {
-                padding: 20px;
-                padding-bottom: px-to-vw(110);
+              margin-bottom: px-to-vw(25);
             }
+          }
 
-            @media #{$tablet-l} {
-                padding: px-to-vw(30);
-                padding-bottom: px-to-vw(110);
-            }
-
-            .left{
-                width: 100%;
-
-                @media #{$tablet-l} {
-                    width: 60%;
-                }
-
-                .image-holder{
-                    padding-top: 100%;
-                    overflow: hidden;
-                    position: relative;
-                    border-radius: 20px;
-
-                    @media #{$tablet-s} {
-                        padding-top: 69%;
-                        border-radius: px-to-vw(30);
-                    }
-
-                    img{
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
-            }
-
-            .right{
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-
-                @media #{$tablet-l} {
-                    width: 40%;
-                    text-align: left;
-                }
-                
-                .right-content{
-                    padding-right: px-to-vw(140);
-                    padding-left: px-to-vw(140);
-                    margin-top: 70px;
-
-                    @media #{$tablet-l} {
-                        margin-top: 0px;
-                    }
-
-                    h2{
-                        @include title-3();
-                        @include font2R();
-                        margin-bottom: 15px;
-
-                        @media #{$tablet-s} {
-                            margin-bottom: px-to-vw(25);
-                        }
-                    }
-    
-                    p{
-                        @include text-2();
-                    }
-                }
-            }
+          p {
+            @include text-2();
+          }
         }
+      }
+    }
+  }
+
+  .ournumbers-section {
+    background-color: $light-grey;
+    padding: 60px 10px;
+    box-sizing: border-box;
+
+    @media #{$tablet-s} {
+      padding: px-to-vw(110) 20px;
     }
 
-    .ournumbers-section {
-        background-color: $light-grey;
-        padding: 60px 10px;
+    @media #{$tablet-l} {
+      padding: px-to-vw(110) px-to-vw(32);
+    }
+
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+
+      .info-holder {
+        width: 100%;
         box-sizing: border-box;
+        align-self: center;
+        @include fadeIn();
+        @include transition();
+        text-align: center;
+        margin-bottom: 60px;
 
         @media #{$tablet-s} {
-            padding: px-to-vw(110) 20px;
+          padding-right: px-to-vw(80);
+          width: 40%;
+          margin-bottom: 0px;
+          text-align: left;
         }
 
         @media #{$tablet-l} {
-            padding: px-to-vw(110) px-to-vw(32);
+          padding-left: px-to-vw(108);
         }
 
-        .section-content {
-            display: flex;
-            flex-wrap: wrap;
+        .section-title {
+          @include title-2();
+          margin: auto;
+          margin-bottom: 30px;
+          max-width: 340px;
 
-            .info-holder {
-                width: 100%;
-                box-sizing: border-box;
-                align-self: center;
-                @include fadeIn();
-                @include transition();
-                text-align: center;
-                margin-bottom: 60px;
+          br {
+            display: none;
+          }
 
-                @media #{$tablet-s} {
-                    padding-right: px-to-vw(80);
-                    width: 40%;
-                    margin-bottom: 0px;
-                    text-align: left;
-                }
-
-                @media #{$tablet-l} {
-                    padding-left: px-to-vw(108);
-                }
-
-                .section-title {
-                    @include title-2();
-                    margin: auto;
-                    margin-bottom: 30px;
-                    max-width: 340px;
-
-                    br{
-                        display: none;
-                    }
-
-                    @media #{$tablet-s} {
-                        br{
-                            display: inline;
-                        }
-
-                        max-width: 100%;
-                        margin-bottom: px-to-vw(52);
-                    }
-                }
-
-                .link-btn {
-                    &:hover{
-                        color: $light-green;
-                    }
-                }
+          @media #{$tablet-s} {
+            br {
+              display: inline;
             }
 
-            .ournumbers-holder {
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                @include fadeIn();
-                @include transition();
-
-                @media #{$tablet-s} {
-                    width: 60%;
-                }
-
-                .single-box-holder {
-                    width: 50%;
-                    box-sizing: border-box;
-                    margin-bottom: 10px;
-                    display: flex;
-
-                    @media #{$tablet-s} {
-                        margin-bottom: 20px;
-                    }
-            
-                    @media #{$tablet-l} {
-                        margin-bottom: px-to-vw(32);
-                    }
-
-                    &:nth-child(odd) {
-                        padding-right: 5px;
-
-                        @media #{$tablet-s} {
-                            padding-right: 10px;
-                        }
-                
-                        @media #{$tablet-l} {
-                            padding-right: px-to-vw(16);
-                        }
-                    }
-
-                    &:nth-child(even) {
-                        padding-left: 5px;
-
-                        @media #{$tablet-s} {
-                            padding-left: 10px;
-                        }
-                
-                        @media #{$tablet-l} {
-                            padding-left: px-to-vw(16);
-                        }
-                    }
-
-                    &:hover{
-                        .single-box{
-                            border-radius: px-to-vw(80);
-                        }
-                    }
-
-                    .single-box {
-                        padding: 30px;
-                        border-radius: 20px;
-                        overflow: hidden;
-                        width: 100%;
-                        background-color: #fff;
-                        @include transition();
-                        text-align: center;
-
-                        @media #{$tablet-s} {
-                            padding: px-to-vw(110) px-to-vw(40);
-                            border-radius: px-to-vw(40);
-                        }
-
-                        .single-box-title {
-                            @include title-1();
-                            margin-bottom: 13px;
-                        }
-
-                        .single-box-description {
-                            p {
-                                @include text-1();
-
-                                @media #{$tablet-s} {
-                                    br{
-                                        display: none;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+            max-width: 100%;
+            margin-bottom: px-to-vw(52);
+          }
         }
-    }
 
-    .history-section{
-        .history-section-holder{
-            background-color: $dark-green;
-            box-sizing: border-box;
-            padding: 0px;
+        .link-btn {
+          &:hover {
+            color: $light-green;
+          }
+        }
+      }
+
+      .ournumbers-holder {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        @include fadeIn();
+        @include transition();
+
+        @media #{$tablet-s} {
+          width: 60%;
+        }
+
+        .single-box-holder {
+          width: 50%;
+          box-sizing: border-box;
+          margin-bottom: 10px;
+          display: flex;
+
+          @media #{$tablet-s} {
+            margin-bottom: 20px;
+          }
+
+          @media #{$tablet-l} {
+            margin-bottom: px-to-vw(32);
+          }
+
+          &:nth-child(odd) {
+            padding-right: 5px;
 
             @media #{$tablet-s} {
-                padding: 20px;
-                background-color: $dark-green;
+              padding-right: 10px;
             }
-    
+
             @media #{$tablet-l} {
-                padding: px-to-vw(30);
+              padding-right: px-to-vw(16);
             }
+          }
 
-            .history-section-content{
-                padding: 10px;
-                padding-bottom: 70px;
-                border-radius: 0 0 20px 20px;
-                background-color: #235A5A;
-
-                @media #{$tablet-s} {
-                    padding: 0px;
-                    padding-bottom: px-to-vw(120);
-                    border-radius: px-to-vw(30);
-                    background-color: #235A5A;
-                    padding: 5px;
-                    box-sizing: border-box;
-                    padding: 10px;
-                    padding-bottom: px-to-vw(120);
-                }
-        
-                @media #{$tablet-l} {
-                    padding: px-to-vw(15);
-                    padding-bottom: px-to-vw(120);
-                }
-
-                .top-section{
-                    display: flex;
-                    flex-wrap: wrap;
-                    margin-bottom: 40px;
-                    @include fadeIn();
-                    @include transition();
-
-                    @media #{$tablet-l} {
-                        margin-bottom: px-to-vw(200);
-                    }
-
-                    .left{
-                        width: 100%;
-
-                        @media #{$tablet-l} {
-                            width: 50%;
-                        }
-
-                        .two-image-holder{
-                            display: flex;
-
-                            .image-holder-wrap{
-                                width: 65%;
-                                padding: 5px;
-                                box-sizing: border-box;
-                                position: relative;
-
-                                @media #{$tablet-s} {
-                                    padding: 10px;
-                                }
-                        
-                                @media #{$tablet-l} {
-                                    padding: px-to-vw(15);
-                                }
-
-                                &.small{
-                                    width: 35%;
-
-                                    .image-holder{
-                                        padding: 0;
-                                        height: 100%;
-                                    }
-                                }
-
-                                .image-holder{
-                                    padding-top: 80%;
-                                    overflow: hidden;
-                                    position: relative;
-                                    border-radius: 20px;
-                                    cursor: pointer;
-                                    -webkit-mask-image: -webkit-radial-gradient(white, black);
-
-                                    @media #{$tablet-s} {
-                                        border-radius: px-to-vw(30);
-                                        padding-top: 62%;
-                                    }
-
-                                    .pill{
-                                        position: absolute;
-                                        bottom: 20px;
-                                        left: 50%;
-                                        transform: translateX(-50%);
-                                        z-index: 2;
-                                        opacity: 0;
-                                        display: none;
-                                        @include transition();
-
-                                        @media #{$tablet-s} {
-                                            display: block;
-                                        }
-                                    }
-    
-                                    img{
-                                        position: absolute;
-                                        left: 0;
-                                        z-index: 1;
-                                        top: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        object-fit: cover;
-                                        @include transition();
-                                    }
-
-                                    &:hover{
-                                        img{
-                                            transform: scale(1.03);
-                                        }
-                                        .pill{
-                                            opacity: 1;
-                                        }
-                                    }
-    
-                                }
-                            }
-                        }
-                    }
-
-                    .right{
-                        display: flex;
-                        align-items: center;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        box-sizing: border-box;
-                        margin-top: 70px;
-                        width: 100%;
-                        text-align: center;
-                        
-                        @media #{$tablet-s} {
-                            padding-left: px-to-vw(160);
-                            padding-right: px-to-vw(160);
-                        }
-
-                        @media #{$tablet-l} {
-                            width: 50%;
-                            margin-top: 0px;
-                            text-align: left;
-                        }
-
-                        h2{
-                            @include title-1();
-                            color: #fff;
-                        }
-                        
-                        .controls-holder{
-                            display: flex;
-                            width: 100%;
-                            margin-top: 30px;
-                            justify-content: center;
-    
-                            @media #{$tablet-l} {
-                                display: none;
-                            }
-    
-                            .swiper-button{
-                                &:first-child{
-                                    margin-right: 18px;
-                                    transform: rotate(180deg);
-                                }
-                            }
-                        }
-                    }
-                }
-
-                .bottom-section{
-                    padding-left: px-to-vw(15);
-                    padding-right: px-to-vw(15);
-                    box-sizing: border-box;
-                    @include fadeIn();
-                    @include transition();
-
-                    .swiper-slide{
-                        height: 100%;
-                        min-height: 250px;;
-                    }
-
-                    .swiper-content{
-                        padding: 50px 30px;
-                        border-radius: 20px;
-                        background-color: #194C4C;
-                        cursor: pointer;
-                        @include transition();
-                        text-align: center;
-                        box-sizing: border-box;
-                        height: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        // justify-content: center;
-                        justify-content: flex-start;
-
-                        @media #{$tablet-s} {
-                            border-radius: px-to-vw(40);
-                            padding: px-to-vw(100) px-to-vw(40);
-                            background-color: $dark-green;
-                        }
-
-                        .slide-year {
-                            @include title-1();
-                            margin-bottom: 13px;
-                            color: #fff;
-                        }
-
-                        .slide-description {
-                            @include text-2();
-                            color: #fff;
-                            font-size: 15px;
-                        }
-                    }
-
-                    .history-swiper-pagination {
-                        position: relative;
-                        background-color: transparent;
-                        height: 5px;
-                        width: calc(100vw - #{20});
-                        margin: 40px auto 0;
-
-                        @media #{$tablet-s} {
-                            width: calc(100vw - #{px-to-vw(110)});
-                            margin: px-to-vw(80) auto 0;
-                        }
-        
-                        &:after {
-                            content: "";
-                            display: block;
-                            width: 100%;
-                            height: 1px;
-                            background-color: rgba(#fff, 25%);
-                            position: absolute;
-                            top: 50%;
-                            left: 0;
-                            transform: translateY(-50%);
-                        }
-        
-                        .swiper-pagination-progressbar-fill {
-                            background-color: $light-green;
-                            height: 3px;
-                            z-index: 1;
-                            top: 1px;
-                        }
-                    }
-                }
-            }
-
-            .ownerword-section{
-                box-sizing: border-box;
-                padding: 70px 30px;
-                background-color: $dark-green;
-                display: flex;
-                flex-wrap: wrap;
-                @include fadeIn();
-                @include transition();
-                
-                @media #{$tablet-s} {
-                    padding-left: 0;
-                    padding: px-to-vw(200) px-to-vw(120);
-                }
-        
-                .left{
-                    width: 100%;
-                    @include fadeIn();
-                    @include transition();
-
-                    @media #{$tablet-s} {
-                        width: 30%;
-                    }
-
-                    @media #{$tablet-l} {
-                        width: 40%;
-                    }
-        
-                    .logo-holder {
-                        display: flex;
-                        flex-direction: column;
-                        text-align: left;
-                        height: 115px;
-                        width: 115px;
-                        border-radius: 115px;
-                        overflow: hidden;
-                        position: relative;
-                        margin: auto;
-                        margin-bottom: 30px;
-
-                        @media #{$tablet-s} {
-                            height: px-to-vw(225);
-                            width: px-to-vw(225);
-                            border-radius: px-to-vw(225);
-                        }
-        
-                        img {
-                            margin: auto;
-                            margin-top: 0;
-                            width: 100%;
-                            height: 100%;
-                            position: absolute;
-                            left: 0;
-                            top: 0;
-                            object-fit: cover;
-
-                        }
-
-                    }
-
-                    .author-holder{
-                        margin-top: px-to-vw(50);
-
-                        .author-name,
-                        .author-position {
-                            @include text-2();
-                            text-align: center;
-                            color: #fff;
-                            display: none;
-
-                            @media #{$tablet-s} {
-                                display: block;
-                            }
-                        }
-                    }
-        
-                }
-        
-                .right{
-                    width: 100%;
-                    box-sizing: border-box;
-                    @include fadeIn();
-                    @include transition();
-                    
-                    @media #{$tablet-s} {
-                        padding-left: px-to-vw(100);
-                        width: 70%;
-                    }
-
-                    @media #{$tablet-l} {
-                        width: 60%;
-                    }
-        
-                    p{
-                        @include title-3();
-                        @include font2R();
-                        line-height: 1.2em;
-                        color: #fff;
-                        text-align: center;
-                        margin-bottom: 25px;
-
-                        @media #{$tablet-s} {
-                            margin-bottom: 0px;
-                            text-align: left;
-                        }
-                    }
-
-                    .author-holder{
-                        margin-top: px-to-vw(50);
-
-                        .author-name,
-                        .author-position {
-                            @include text-2();
-                            text-align: center;
-                            color: #fff;
-
-                            @media #{$tablet-s} {
-                                display: none;
-                            }
-                        }
-                    }
-                }
-            }
-
-        }
-    }
-
-    .team-section{
-        .text-hero{
-            padding-top: 80px;
-            padding-bottom: 50px;
+          &:nth-child(even) {
+            padding-left: 5px;
 
             @media #{$tablet-s} {
-                padding-top: px-to-vw(310);
-                padding-bottom: px-to-vw(130);
+              padding-left: 10px;
             }
-        
 
-            h2{
-                @include title-1();
-                text-align: center;
+            @media #{$tablet-l} {
+              padding-left: px-to-vw(16);
             }
-        }
+          }
 
-        .team-holder{
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 10px;
-            padding-bottom: 70px;
-            box-sizing: border-box;
-            @include fadeIn();
+          &:hover {
+            .single-box {
+              border-radius: px-to-vw(80);
+            }
+          }
+
+          .single-box {
+            padding: 30px;
+            border-radius: 20px;
+            overflow: hidden;
+            width: 100%;
+            background-color: #fff;
             @include transition();
+            text-align: center;
 
             @media #{$tablet-s} {
-                padding: 0 px-to-vw(80);
+              padding: px-to-vw(110) px-to-vw(40);
+              border-radius: px-to-vw(40);
             }
 
-            @media #{$laptop-s} {
-                padding: 0 px-to-vw(110);
+            .single-box-title {
+              @include title-1();
+              margin-bottom: 13px;
             }
 
-            .single-team{
-                width: 50%;
-                padding: 0 5px;
-                margin-bottom: 35px;
-                box-sizing: border-box;
+            .single-box-description {
+              p {
+                @include text-1();
 
                 @media #{$tablet-s} {
-                    padding: 0 10px;
-                    margin-bottom: px-to-vw(100);
+                  br {
+                    display: none;
+                  }
                 }
-                
-                @media #{$tablet-l} {
-                    width: 33.33333%;
-                    padding: 0 px-to-vw(15);
-                }
-
-                .image-holder{
-                    padding-top: 130%;
-                    overflow: hidden;
-                    position: relative;
-                    border-radius: 20px;;
-
-                    @media #{$tablet-s} {
-                        padding-top: 120%;
-                        border-radius: px-to-vw(30);
-                    }
-
-                    .pill{
-                        position: absolute;
-                        right: 5px;
-                        bottom: 5px;
-                        z-index: 2;
-
-                        @media #{$tablet-s} {
-                            right: 20px;
-                            bottom: 20px;
-                        }
-                    }
-
-                    a{
-                        display: inline-block;
-                        border: 1px solid $light-green;
-                        border-radius: 100%;
-                        cursor: pointer;
-                        width: 25px;
-                        height: 25px;
-                        position: absolute;
-                        bottom: 5px;
-                        left: 5px;
-                        z-index: 2;
-
-                        svg{
-                            width: 100%;
-                            height: 100%;
-                            vertical-align: bottom;
-                            ellipse, path{
-                                @include transition();
-                            }
-                        }
-
-                        @media #{$tablet-s} {
-                            display: none;
-                        }
-                    }
-
-                    img{
-                        z-index: 1;
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
-
-                .team-info{
-                    margin-top: 10px;
-
-                    @media #{$tablet-s} {
-                        margin-top: px-to-vw(20);
-                    }
-
-                    .team-title{
-                        display: flex;
-                        align-items: center;
-                        margin-bottom: 5px;
-
-                        @media #{$tablet-s} {
-                            margin-bottom: 10px;
-                        }
-
-                        h3{
-                            @include title-3();
-                            @include font2R();
-                            margin-right: 15px;
-                        }
-
-                        a{
-                            display: none;
-                            border: 1px solid $light-green;
-                            border-radius: 100%;
-                            cursor: pointer;
-                            width: px-to-vw(40);
-                            height: px-to-vw(40);
-
-                            @media #{$tablet-s} {
-                                display: inline-block;
-                            }
-
-                            svg{
-                                width: 100%;
-                                height: 100%;
-                                vertical-align: bottom;
-                                ellipse, path{
-                                    @include transition();
-                                }
-                            }
-                            
-                            &:hover{
-                                svg{
-                                    ellipse{
-                                        fill: #fff;
-                                    }
-
-                                    path{
-                                        fill: $light-green;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    .team-position{
-                        @include text-2();
-                    }
-                }
+              }
             }
+          }
         }
+      }
     }
+  }
+
+  .history-section {
+    .history-section-holder {
+      background-color: $dark-green;
+      box-sizing: border-box;
+      padding: 0px;
+
+      @media #{$tablet-s} {
+        padding: 20px;
+        background-color: $dark-green;
+      }
+
+      @media #{$tablet-l} {
+        padding: px-to-vw(30);
+      }
+
+      .history-section-content {
+        padding: 10px;
+        padding-bottom: 70px;
+        border-radius: 0 0 20px 20px;
+        background-color: #235a5a;
+
+        @media #{$tablet-s} {
+          padding: 0px;
+          padding-bottom: px-to-vw(120);
+          border-radius: px-to-vw(30);
+          background-color: #235a5a;
+          padding: 5px;
+          box-sizing: border-box;
+          padding: 10px;
+          padding-bottom: px-to-vw(120);
+        }
+
+        @media #{$tablet-l} {
+          padding: px-to-vw(15);
+          padding-bottom: px-to-vw(120);
+        }
+
+        .top-section {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 40px;
+          @include fadeIn();
+          @include transition();
+
+          @media #{$tablet-l} {
+            margin-bottom: px-to-vw(200);
+          }
+
+          .left {
+            width: 100%;
+
+            @media #{$tablet-l} {
+              width: 50%;
+            }
+
+            .two-image-holder {
+              display: flex;
+
+              .image-holder-wrap {
+                width: 65%;
+                padding: 5px;
+                box-sizing: border-box;
+                position: relative;
+
+                @media #{$tablet-s} {
+                  padding: 10px;
+                }
+
+                @media #{$tablet-l} {
+                  padding: px-to-vw(15);
+                }
+
+                &.small {
+                  width: 35%;
+
+                  .image-holder {
+                    padding: 0;
+                    height: 100%;
+                  }
+                }
+
+                .image-holder {
+                  padding-top: 80%;
+                  overflow: hidden;
+                  position: relative;
+                  border-radius: 20px;
+                  cursor: pointer;
+                  -webkit-mask-image: -webkit-radial-gradient(white, black);
+
+                  @media #{$tablet-s} {
+                    border-radius: px-to-vw(30);
+                    padding-top: 62%;
+                  }
+
+                  .pill {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 2;
+                    opacity: 0;
+                    display: none;
+                    @include transition();
+
+                    @media #{$tablet-s} {
+                      display: block;
+                    }
+                  }
+
+                  img {
+                    position: absolute;
+                    left: 0;
+                    z-index: 1;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    @include transition();
+                  }
+
+                  &:hover {
+                    img {
+                      transform: scale(1.03);
+                    }
+                    .pill {
+                      opacity: 1;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .right {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            box-sizing: border-box;
+            margin-top: 70px;
+            width: 100%;
+            text-align: center;
+
+            @media #{$tablet-s} {
+              padding-left: px-to-vw(160);
+              padding-right: px-to-vw(160);
+            }
+
+            @media #{$tablet-l} {
+              width: 50%;
+              margin-top: 0px;
+              text-align: left;
+            }
+
+            h2 {
+              @include title-1();
+              color: #fff;
+            }
+          }
+        }
+
+        .bottom-section {
+          padding-left: px-to-vw(15);
+          padding-right: px-to-vw(15);
+          box-sizing: border-box;
+          @include fadeIn();
+          @include transition();
+
+          .swiper-slide {
+            height: 100%;
+            min-height: 250px;
+          }
+
+          .swiper-content {
+            padding: 50px 30px;
+            border-radius: 20px;
+            background-color: #194c4c;
+            cursor: pointer;
+            @include transition();
+            text-align: center;
+            box-sizing: border-box;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            justify-content: flex-start;
+
+            @media #{$tablet-s} {
+              border-radius: px-to-vw(40);
+              padding: px-to-vw(100) px-to-vw(40);
+              background-color: $dark-green;
+            }
+
+            .slide-year {
+              @include title-1();
+              margin-bottom: 13px;
+              color: #fff;
+            }
+
+            .slide-description {
+              @include text-2();
+              color: #fff;
+              font-size: 15px;
+            }
+          }
+
+          .pagination-holder {
+            display: flex;
+            align-items: center;
+            margin: 40px auto 0;
+            flex-direction: column;
+
+            @media #{$tablet-s} {
+              margin: px-to-vw(80) auto 0;
+              flex-direction: row;
+            }
+
+            .history-swiper-pagination {
+              position: relative;
+              background-color: transparent;
+              height: 5px;
+              width: calc(100vw - #{20});
+
+              @media #{$tablet-s} {
+                width: calc(100vw - #{px-to-vw(110)});
+              }
+
+              &:after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: rgba(#fff, 25%);
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+              }
+
+              .swiper-pagination-progressbar-fill {
+                background-color: $light-green;
+                height: 3px;
+                z-index: 1;
+                top: 1px;
+              }
+            }
+
+            .controls-holder {
+              display: flex;
+              justify-content: center;
+              margin-top: 9px;
+              @media #{$tablet-s} {
+                margin: 0;
+              }
+              .swiper-button {
+                margin: 9px;
+                @media #{$tablet-s} {
+                  margin: 0 0 0 18px;
+                }
+                &:first-child {
+                  transform: rotate(180deg);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .ownerword-section {
+        box-sizing: border-box;
+        padding: 70px 30px;
+        background-color: $dark-green;
+        display: flex;
+        flex-wrap: wrap;
+        @include fadeIn();
+        @include transition();
+
+        @media #{$tablet-s} {
+          padding-left: 0;
+          padding: px-to-vw(200) px-to-vw(120);
+        }
+
+        .left {
+          width: 100%;
+          @include fadeIn();
+          @include transition();
+
+          @media #{$tablet-s} {
+            width: 30%;
+          }
+
+          @media #{$tablet-l} {
+            width: 40%;
+          }
+
+          .logo-holder {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            height: 115px;
+            width: 115px;
+            border-radius: 115px;
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+            margin-bottom: 30px;
+
+            @media #{$tablet-s} {
+              height: px-to-vw(225);
+              width: px-to-vw(225);
+              border-radius: px-to-vw(225);
+            }
+
+            img {
+              margin: auto;
+              margin-top: 0;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              object-fit: cover;
+            }
+          }
+
+          .author-holder {
+            margin-top: px-to-vw(50);
+
+            .author-name,
+            .author-position {
+              @include text-2();
+              text-align: center;
+              color: #fff;
+              display: none;
+
+              @media #{$tablet-s} {
+                display: block;
+              }
+            }
+          }
+        }
+
+        .right {
+          width: 100%;
+          box-sizing: border-box;
+          @include fadeIn();
+          @include transition();
+
+          @media #{$tablet-s} {
+            padding-left: px-to-vw(100);
+            width: 70%;
+          }
+
+          @media #{$tablet-l} {
+            width: 60%;
+          }
+
+          p {
+            @include title-3();
+            @include font2R();
+            line-height: 1.2em;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 25px;
+
+            @media #{$tablet-s} {
+              margin-bottom: 0px;
+              text-align: left;
+            }
+          }
+
+          .author-holder {
+            margin-top: px-to-vw(50);
+
+            .author-name,
+            .author-position {
+              @include text-2();
+              text-align: center;
+              color: #fff;
+
+              @media #{$tablet-s} {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .team-section {
+    .text-hero {
+      padding-top: 80px;
+      padding-bottom: 50px;
+
+      @media #{$tablet-s} {
+        padding-top: px-to-vw(310);
+        padding-bottom: px-to-vw(130);
+      }
+
+      h2 {
+        @include title-1();
+        text-align: center;
+      }
+    }
+
+    .team-holder {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 10px;
+      padding-bottom: 70px;
+      box-sizing: border-box;
+      @include fadeIn();
+      @include transition();
+
+      @media #{$tablet-s} {
+        padding: 0 px-to-vw(80);
+      }
+
+      @media #{$laptop-s} {
+        padding: 0 px-to-vw(110);
+      }
+
+      .single-team {
+        width: 50%;
+        padding: 0 5px;
+        margin-bottom: 35px;
+        box-sizing: border-box;
+
+        @media #{$tablet-s} {
+          padding: 0 10px;
+          margin-bottom: px-to-vw(100);
+        }
+
+        @media #{$tablet-l} {
+          width: 33.33333%;
+          padding: 0 px-to-vw(15);
+        }
+
+        .image-holder {
+          padding-top: 130%;
+          overflow: hidden;
+          position: relative;
+          border-radius: 20px;
+
+          @media #{$tablet-s} {
+            padding-top: 120%;
+            border-radius: px-to-vw(30);
+          }
+
+          .pill {
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            z-index: 2;
+
+            @media #{$tablet-s} {
+              right: 20px;
+              bottom: 20px;
+            }
+          }
+
+          a {
+            display: inline-block;
+            border: 1px solid $light-green;
+            border-radius: 100%;
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            z-index: 2;
+
+            svg {
+              width: 100%;
+              height: 100%;
+              vertical-align: bottom;
+              ellipse,
+              path {
+                @include transition();
+              }
+            }
+
+            @media #{$tablet-s} {
+              display: none;
+            }
+          }
+
+          img {
+            z-index: 1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .team-info {
+          margin-top: 10px;
+
+          @media #{$tablet-s} {
+            margin-top: px-to-vw(20);
+          }
+
+          .team-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            @media #{$tablet-s} {
+              margin-bottom: 10px;
+            }
+
+            h3 {
+              @include title-3();
+              @include font2R();
+              margin-right: 15px;
+            }
+
+            a {
+              display: none;
+              border: 1px solid $light-green;
+              border-radius: 100%;
+              cursor: pointer;
+              width: px-to-vw(40);
+              height: px-to-vw(40);
+
+              @media #{$tablet-s} {
+                display: inline-block;
+              }
+
+              svg {
+                width: 100%;
+                height: 100%;
+                vertical-align: bottom;
+                ellipse,
+                path {
+                  @include transition();
+                }
+              }
+
+              &:hover {
+                svg {
+                  ellipse {
+                    fill: #fff;
+                  }
+
+                  path {
+                    fill: $light-green;
+                  }
+                }
+              }
+            }
+          }
+
+          .team-position {
+            @include text-2();
+          }
+        }
+      }
+    }
+  }
 }

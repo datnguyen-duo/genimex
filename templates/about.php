@@ -181,19 +181,13 @@ get_header(); ?>
                                     <?php echo $history_section_headline; ?>
                                 </h2>
 
-                                <div class="controls-holder">
-                                    <div class="swiper-button white history-swiper-button-prev">
-                                        <?php icon_white_arrow(); ?>
-                                    </div>
-                                    <div class="swiper-button white history-swiper-button-next">
-                                        <?php icon_white_arrow(); ?>
-                                    </div>
-                                </div>
+
                             <?php endif; ?>
                         </div>
                     </div>
                     <?php if($history_section_list): ?>
                         <div class="bottom-section animate">
+   
                             <div class="swiper history-swiper">
                                 <div class="swiper-wrapper">
                                     <?php foreach($history_section_list as $singleSlide): ?>
@@ -209,7 +203,17 @@ get_header(); ?>
                                         </div>
                                     <?php endforeach; ?>
                                 </div>
-                                <div class="history-swiper-pagination"></div>
+                                <div class="pagination-holder">
+                                    <div class="history-swiper-pagination"></div>
+                                    <div class="controls-holder">
+                                        <div class="swiper-button white history-swiper-button-prev">
+                                            <?php icon_white_arrow(); ?>
+                                        </div>
+                                        <div class="swiper-button white history-swiper-button-next">
+                                            <?php icon_white_arrow(); ?>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     <?php endif; ?>
