@@ -1,0 +1,25 @@
+{
+  "name": "genimex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "*",
+    "gsap": "^3.10.4",
+    "jquery": "^3.6.0",
+    "jquery-datepicker": "^1.12.3",
+    "jquery-ui": "^1.13.2",
+    "select2": "~4.0",
+    "swiper": "^8.3.0"
+  }
+}

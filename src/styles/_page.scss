@@ -1,0 +1,21 @@
+.template-page-container{
+    // background-color: $light-grey;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+    
+    @media #{$tablet-l} {
+        padding-bottom: px-to-vw(190);
+    }
+
+    .template-page-content{
+        margin: auto;
+        padding: 0 30px;
+        @include fadeIn();
+        @include transition();
+
+        @media #{$tablet-l} {
+            padding: 0px;
+            max-width: 60vw;
+        }
+    }
+}
