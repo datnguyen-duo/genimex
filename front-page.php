@@ -87,14 +87,14 @@ get_header(); ?>
                     <?php if($second_section_first_image): ?>
                         <div class="image-holder">
                             <div class="image">
-                                <img src="<?php echo $second_section_first_image['url']; ?>" alt="<?php echo $second_section_first_image['alt']; ?>">
+                                <?php echo wp_get_attachment_image( $second_section_first_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                             </div>
                         </div>
                     <?php endif; ?>
                     <?php if($second_section_second_image): ?>
                         <div class="image-holder">
                             <div class="image">
-                                <img src="<?php echo $second_section_second_image['url']; ?>" alt="<?php echo $second_section_second_image['alt']; ?>">
+                                <?php echo wp_get_attachment_image( $second_section_second_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                             </div>
                         </div>
                     <?php endif; ?>
@@ -187,7 +187,7 @@ get_header(); ?>
                     <div class="col image-col">
                         <?php if($about_us_first_image): ?>
                             <div class="image-holder animate">
-                                <img src="<?php echo $about_us_first_image['url'] ?>" alt="<?php echo $about_us_first_image['alt'] ?>">
+                                <?php echo wp_get_attachment_image( $about_us_first_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                             </div>
                         <?php endif; ?>
                     </div>
@@ -213,7 +213,7 @@ get_header(); ?>
                     <div class="col image-col">
                         <?php if($about_us_second_image): ?>
                             <div class="image-holder animate">
-                                <img src="<?php echo $about_us_second_image['url'] ?>" alt="<?php echo $about_us_second_image['alt'] ?>">
+                                <?php echo wp_get_attachment_image( $about_us_second_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                             </div>
                         <?php endif; ?>
                     </div>
@@ -307,12 +307,12 @@ get_header(); ?>
                                     <div class="slide-content">
                                         <?php if($singleProduct['product_image']): ?>
                                             <div class="image-holder">
-                                                <img src="<?php echo $singleProduct['product_image']['url'] ?>" alt="<?php echo $singleProduct['product_image']['alt'] ?>">
+                                                <?php echo wp_get_attachment_image( $singleProduct['product_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                             </div>
                                         <?php endif; ?>
                                         <?php if($singleProduct['product_logo']): ?>
                                             <div class="client-logo">
-                                                <img src="<?php echo $singleProduct['product_logo']['url'] ?>" alt="<?php echo $singleProduct['product_logo']['alt'] ?>">
+                                                <?php echo wp_get_attachment_image( $singleProduct['product_logo']['id'], 'thumbnail', false, array( 'class' => '' ) ); ?>
                                             </div>
                                         <?php endif; ?>
                                     </div>

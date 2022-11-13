@@ -397,7 +397,7 @@
                 width: 100%;
                 max-height: 8vw;
                 @media #{$tablet-s} {
-                  max-height: 3.5vw;
+                  max-height: 2.5vw;
                 }
               }
             }
@@ -918,12 +918,12 @@
               z-index: 2;
               bottom: 5%;
               transform: translateX(-50%);
-              height: 24px;
+              height: auto;
               opacity: 1;
               @include transition();
 
               @media #{$tablet-s} {
-                height: 2.5vw;
+                // height: 2.5vw;
               }
 
               @media #{$laptop-s} {
@@ -931,7 +931,7 @@
               }
 
               img {
-                height: 100%;
+                // height: 100%;
                 width: 100%;
               }
             }

@@ -51,7 +51,7 @@ get_header(); ?>
                 <div class="left">
                     <?php if($hero_section_image): ?>
                         <div class="image-holder">
-                            <img src="<?php echo $hero_section_image['url']; ?>" alt="<?php echo $hero_section_image['alt']; ?>">
+                            <?php echo wp_get_attachment_image( $hero_section_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                         </div>
                     <?php endif; ?>
                 </div>
@@ -126,7 +126,7 @@ get_header(); ?>
                                 <div class="image-holder-wrap">
                                     <div class="image-holder">
                                         <?php if($history_section_first_image): ?>
-                                            <img src="<?php echo $history_section_first_image['url']; ?>" alt="<?php echo $history_section_first_image['alt']; ?>">
+                                            <?php echo wp_get_attachment_image( $history_section_first_image['id'], 'large', false, array( 'class' => '' ) ); ?>
                                         <?php endif; ?>
                                         <?php if($history_section_first_image_date): ?>
                                             <div class="pill">
@@ -138,7 +138,7 @@ get_header(); ?>
                                 <div class="image-holder-wrap small">
                                     <div class="image-holder">
                                         <?php if($history_section_second_image): ?>
-                                            <img src="<?php echo $history_section_second_image['url']; ?>" alt="<?php echo $history_section_second_image['alt']; ?>">
+                                            <?php echo wp_get_attachment_image( $history_section_second_image['id'], 'large', false, array( 'class' => '' ) ); ?>
                                         <?php endif; ?>
                                         <?php if($history_section_second_image_date): ?>
                                             <div class="pill">
@@ -152,7 +152,7 @@ get_header(); ?>
                                 <div class="image-holder-wrap small">
                                     <div class="image-holder">
                                         <?php if($history_section_third_image): ?>
-                                            <img src="<?php echo $history_section_third_image['url']; ?>" alt="<?php echo $history_section_third_image['alt']; ?>">
+                                            <?php echo wp_get_attachment_image( $history_section_third_image['id'], 'large', false, array( 'class' => '' ) ); ?>
                                         <?php endif; ?>
                                         <?php if($history_section_third_image_date): ?>
                                             <div class="pill">
@@ -164,7 +164,7 @@ get_header(); ?>
                                 <div class="image-holder-wrap">
                                     <div class="image-holder">
                                         <?php if($history_section_fourth_image): ?>
-                                            <img src="<?php echo $history_section_fourth_image['url']; ?>" alt="<?php echo $history_section_fourth_image['alt']; ?>">
+                                            <?php echo wp_get_attachment_image( $history_section_fourth_image['id'], 'large', false, array( 'class' => '' ) ); ?>
                                         <?php endif; ?>
                                         <?php if($history_section_fourth_image_date): ?>
                                             <div class="pill">
@@ -222,7 +222,7 @@ get_header(); ?>
                 <div class="ownerword-section animate">
                     <div class="left animate">
                         <div class="logo-holder">
-                            <img src="<?php echo $word_of_owner_image['url'] ?>" alt="<?php echo $word_of_owner_image['alt'] ?>">
+                            <?php echo wp_get_attachment_image( $word_of_owner_image['id'], 'medium', false, array( 'class' => '' ) ); ?>
                         </div>
 
                         <div class="author-holder">

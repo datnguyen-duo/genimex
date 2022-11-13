@@ -24,7 +24,7 @@ function register_post_types() {
     'labels' => array(
         'name' => _x('Expertises', 'post type general name'),
         'singular_name' => _x('Expertise', 'post type singular name'),
-        'menu_name' => 'Expertises'
+        'menu_name' => 'Expertise'
     ),
     'rewrite' => array(
         'slug' => 'expretises',

@@ -642,13 +642,13 @@
 
   .team-section {
     .text-hero {
-      padding-top: 80px;
-      padding-bottom: 50px;
+      //   padding-top: 80px;
+      //   padding-bottom: 50px;
 
-      @media #{$tablet-s} {
-        padding-top: px-to-vw(310);
-        padding-bottom: px-to-vw(130);
-      }
+      //   @media #{$tablet-s} {
+      //     padding-top: px-to-vw(310);
+      //     padding-bottom: px-to-vw(130);
+      //   }
 
       h2 {
         @include title-1();
