@@ -4,9 +4,6 @@
 $hero_section_headline = get_field('hero_section_headline');
 $hero_section_button = get_field('hero_section_button');
 
-$single_expertises_headline = get_field('single_expertises_headline', 'option');
-$single_expertises_button = get_field('single_expertises_button', 'option');
-
 $second_section_headline = get_field('second_section_headline');
 $second_section_description = get_field('second_section_description');
 $second_section_first_slider = get_field('second_section_first_slider');
@@ -22,6 +19,8 @@ $fourth_section_list = get_field('fourth_section_list');
 
 $fifth_section_headline = get_field('fifth_section_headline');
 $fifth_section_featured_capabilities = get_field('fifth_section_featured_capabilities');
+
+$additional_cta = get_field('additional_cta');
 
 get_header(); ?>
     <div class="template-expertise-page-container">
@@ -219,17 +218,15 @@ get_header(); ?>
             </div>
         </div>
 
-        <?php if($single_expertises_button || $single_expertises_headline): ?>
+        <?php if($additional_cta): ?>
             <div class="fifth-section animate">
                 <h2>
-                    <?php echo $single_expertises_headline; ?>
+                    <?php echo $additional_cta['headline']; ?>
                 </h2>
-
-                <?php if($single_expertises_button): ?>
-                    <a href="<?php echo $single_expertises_button['url'] ?>" target="<?php echo $single_expertises_button['target'] ?>" class="btn">
-                        <span><?php echo $single_expertises_button['title'] ?></span>
-                    </a>
-                <?php endif; ?>
+                <a href="<?php echo $additional_cta['button']['url'] ?>" target="<?php echo $additional_cta['button']['target'] ?>" class="btn">
+                    <span><?php echo $additional_cta['button']['title'] ?></span>
+                </a>
+ 
             </div>
         <?php endif; ?>
     </div>
