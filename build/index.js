@@ -110,7 +110,6 @@ if (jquery_src_jquery__WEBPACK_IMPORTED_MODULE_0___default()(".template-expertis
   }
   function hideVideo(index, e) {
     vid[index].pause();
-    vid[index].currentTime = 0;
   }
 }
 jquery_src_jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).resize(function () {

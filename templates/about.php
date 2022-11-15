@@ -51,7 +51,7 @@ get_header(); ?>
                 <div class="left">
                     <?php if($hero_section_image): ?>
                         <div class="image-holder">
-                            <?php echo wp_get_attachment_image( $hero_section_image['id'], 'full', false, array( 'class' => '' ) ); ?>
+                            <?php echo wp_get_attachment_image( $hero_section_image['id'], 'full', false, array( 'class' => '', 'loading' => 'eager' ) ); ?>
                         </div>
                     <?php endif; ?>
                 </div>

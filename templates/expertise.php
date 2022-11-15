@@ -48,8 +48,7 @@ get_header(); ?>
                                 <?php foreach($second_section_first_slider as $singleSlide): ?>
                                     <div class="image-holder-wrap">
                                         <div class="image-holder">
-                                            <img src="<?php echo $singleSlide['slider_image']['url'] ?>" alt="<?php echo $singleSlide['slider_image']['alt'] ?>">
-                                            
+                                            <?php echo wp_get_attachment_image( $singleSlide['slider_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -58,8 +57,7 @@ get_header(); ?>
                                 <?php foreach($second_section_first_slider as $singleSlide): ?>
                                     <div class="image-holder-wrap">
                                         <div class="image-holder">
-                                            <img src="<?php echo $singleSlide['slider_image']['url'] ?>" alt="<?php echo $singleSlide['slider_image']['alt'] ?>">
-                                            
+                                            <?php echo wp_get_attachment_image( $singleSlide['slider_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -68,8 +66,7 @@ get_header(); ?>
                                 <?php foreach($second_section_first_slider as $singleSlide): ?>
                                     <div class="image-holder-wrap">
                                         <div class="image-holder">
-                                            <img src="<?php echo $singleSlide['slider_image']['url'] ?>" alt="<?php echo $singleSlide['slider_image']['alt'] ?>">
-                                            
+                                            <?php echo wp_get_attachment_image( $singleSlide['slider_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -80,7 +77,7 @@ get_header(); ?>
                                 <?php foreach($second_section_second_slider as $singleSlide): ?>
                                     <div class="image-holder-wrap">
                                         <div class="image-holder">
-                                        <img src="<?php echo $singleSlide['slider_image']['url'] ?>" alt="<?php echo $singleSlide['slider_image']['alt'] ?>">
+                                            <?php echo wp_get_attachment_image( $singleSlide['slider_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -89,7 +86,7 @@ get_header(); ?>
                                 <?php foreach($second_section_second_slider as $singleSlide): ?>
                                     <div class="image-holder-wrap">
                                         <div class="image-holder">
-                                        <img src="<?php echo $singleSlide['slider_image']['url'] ?>" alt="<?php echo $singleSlide['slider_image']['alt'] ?>">
+                                            <?php echo wp_get_attachment_image( $singleSlide['slider_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -98,7 +95,7 @@ get_header(); ?>
                                 <?php foreach($second_section_second_slider as $singleSlide): ?>
                                     <div class="image-holder-wrap">
                                         <div class="image-holder">
-                                        <img src="<?php echo $singleSlide['slider_image']['url'] ?>" alt="<?php echo $singleSlide['slider_image']['alt'] ?>">
+                                            <?php echo wp_get_attachment_image( $singleSlide['slider_image']['id'], 'full', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -136,7 +133,7 @@ get_header(); ?>
                         <?php if($third_section_first_image): ?>
                             <div class="image-holder">
                                 <div class="image">
-                                    <img src="<?php echo $third_section_first_image['url'] ?>" alt="<?php echo $third_section_first_image['alt'] ?>">
+                                    <?php echo wp_get_attachment_image( $third_section_first_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                                 </div>
                             </div>
                         <?php endif; ?>
@@ -144,7 +141,7 @@ get_header(); ?>
                         <?php if($third_section_second_image): ?>
                             <div class="image-holder">
                                 <div class="image">
-                                    <img src="<?php echo $third_section_second_image['url'] ?>" alt="<?php echo $third_section_first_image['alt'] ?>">
+                                    <?php echo wp_get_attachment_image( $third_section_second_image['id'], 'full', false, array( 'class' => '' ) ); ?>
                                 </div>
                             </div>
                         <?php endif; ?>

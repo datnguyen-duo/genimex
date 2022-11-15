@@ -630,7 +630,7 @@
     @include transition();
 
     @media #{$tablet-s} {
-      padding: px-to-vw(270) px-to-vw(120);
+      padding: px-to-vw(160) px-to-vw(120);
       padding-top: 0;
     }
 

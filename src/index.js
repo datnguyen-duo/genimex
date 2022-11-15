@@ -107,7 +107,6 @@ if ($(".template-expertise-page-container").length) {
 
   function hideVideo(index, e) {
     vid[index].pause();
-    vid[index].currentTime = 0;
   }
 }
 

@@ -37,13 +37,14 @@
     
                 <div class="pill-holder">
                     <div class="pill category">
-                        <?php $glue = ''; foreach($category_detail as $singleCategory): 
+                        <?php the_category(', '); ?>
+                        <!-- <?php $glue = ''; foreach($category_detail as $singleCategory): 
                             $category_link = get_category_link($singleCategory->cat_ID);
                             ?>
                             
                             <a href="<?php echo $category_link; ?>"><?php echo $glue . $singleCategory->cat_name; $glue = ', '; ?></a>
                             
-                        <?php endforeach; ?>
+                        <?php endforeach; ?> -->
                     </div>
                     <div class="pill date">
                         <?php echo $post_date; ?>

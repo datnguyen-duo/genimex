@@ -5089,7 +5089,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 @media only screen and (min-width : 768px) {
   .front-page-container .description-section {
     padding: 0;
-    margin-top: 12.9797979798vw;
+    margin-top: 9.8484848485vw;
   }
 }
 .front-page-container .description-section .section-title {
@@ -5162,7 +5162,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   }
 }
 .front-page-container .images-with-description-section {
-  margin-top: 15.6060606061vw;
+  margin-top: 9.8484848485vw;
 }
 .front-page-container .images-with-description-section .section-content {
   display: flex;
@@ -7396,7 +7396,6 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
   overflow: hidden;
   position: relative;
   border-radius: 20px;
-  cursor: pointer;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 @media only screen and (min-width : 768px) {
@@ -8698,7 +8697,7 @@ header nav .buttons-holder .mobile-opener.active .opener-icon span:nth-of-type(3
 }
 @media only screen and (min-width : 768px) {
   .template-expertise-page-container .fifth-section {
-    padding: 13.6363636364vw 6.0606060606vw;
+    padding: 8.0808080808vw 6.0606060606vw;
     padding-top: 0;
   }
 }

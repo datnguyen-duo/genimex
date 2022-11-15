@@ -58,7 +58,7 @@ get_header();
     
         <div class="featured-blog-posts">
             <div class="left">
-                <div thumbsSlider class="swiper featured-blogs-swiper-thumb">
+                <div class="swiper featured-blogs-swiper-thumb">
                     <div class="swiper-wrapper">
                         <?php if ( $latest->have_posts() ):
                             while ( $latest->have_posts() ):
@@ -68,13 +68,14 @@ get_header();
                             ?>
                                 <div class="swiper-slide">      
                                     <div class="category pill">
-                                        <?php $glue = ''; foreach($category_detail as $singleCategory): 
+                                        <?php the_category(', '); ?>
+                                        <!-- <?php $glue = ''; foreach($category_detail as $singleCategory): 
                                             $category_link = get_category_link($singleCategory->cat_ID);
                                             ?>
                                             
                                             <a href="<?php echo $category_link; ?>"><?php echo $glue . $singleCategory->cat_name; $glue = ', '; ?></a>
                                             
-                                        <?php endforeach; ?>
+                                        <?php endforeach; ?> -->
                                     </div>
 
                                     <a href="<?php the_permalink(); ?>" class="image-holder">

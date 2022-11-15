@@ -139,7 +139,7 @@ get_header(); ?>
                                 <?php foreach($partners_section_partners as $singlePartner): ?>
                                     <div class="marquee__inner--slide">
                                         <div class="marquee__inner--slide-content">
-                                            <img src="<?php echo $singlePartner['single_partner']['url'] ?>" alt="<?php echo $singlePartner['single_partner']['alt'] ?>">
+                                            <?php echo wp_get_attachment_image( $singlePartner['single_partner']['id'], 'thumbnail', false, array( 'class' => '' ) ); ?>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -249,7 +249,7 @@ get_header(); ?>
                             <div class="service-holder">
                                 <div class="service">
                                     <div class="service-icon">
-                                        <img src="<?php echo $singleService['list_icon']['url']; ?>" alt="<?php echo $singleService['list_icons']['alt']; ?>">
+                                        <?php echo wp_get_attachment_image( $singleService['list_icon']['id'], 'thumbnail', false, array( 'class' => '' ) ); ?>
                                     </div>
                                     <h3 class="service-title"><?php echo $singleService['list_headline'] ?></h3>
                                     <div class="service-description">
@@ -285,7 +285,7 @@ get_header(); ?>
                     <?php endif; ?>
                     <div class="controls-holder">
                         <div class="swiper-button work-swiper-button-prev">
-                            <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="">
+                            <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="arrow" loading="lazy">
                         </div>
                         <?php if($selected_products_link): ?>
                             <div class="mobile-link">
@@ -295,7 +295,7 @@ get_header(); ?>
                             </div>
                         <?php endif; ?>
                         <div class="swiper-button work-swiper-button-next">
-                            <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="">
+                            <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="arrow" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -335,7 +335,7 @@ get_header(); ?>
                                 <div class="swiper-slide">
                                     <div class="logo">
                                         <?php if($singleTestimonial['single_testimonial_logo']): ?>
-                                            <img src="<?php echo $singleTestimonial['single_testimonial_logo']['url'] ?>" alt="<?php echo $singleTestimonial['single_testimonial_logo']['alt'] ?>">
+                                            <?php echo wp_get_attachment_image( $singleTestimonial['single_testimonial_logo']['id'], 'medium', false, array( 'class' => '' ) ); ?>
                                         <?php endif; ?>
 
                                         <?php if($singleTestimonial['single_testimonial_author']): ?>
@@ -379,10 +379,10 @@ get_header(); ?>
     
                             <div class="controls-holder">
                                 <div class="swiper-button testimonials-swiper-button-prev">
-                                    <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="">
+                                    <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="arrow" loading="lazy">
                                 </div>
                                 <div class="swiper-button testimonials-swiper-button-next">
-                                    <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="">
+                                    <img src="<?= get_template_directory_uri().'/src/images/icons/swiper-arrow.svg' ?>" alt="arrow" loading="lazy">
                                 </div>
                             </div>
                         </div>
