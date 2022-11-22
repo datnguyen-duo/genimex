@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://player.vimeo.com/api/player.js"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.genimexgroup.com/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="GENIMEX | Consumer Product Manufacturing | China & Southeast Asia">
+    <meta property="og:image" content="<?= get_template_directory_uri().'/src/images/logo/genimex_meta.jpg' ?>">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="genimexgroup.com">
+    <meta property="twitter:url" content="https://www.genimexgroup.com/">
+    <meta name="twitter:title" content="GENIMEX | Consumer Product Manufacturing | China & Southeast Asia">
+    <meta name="twitter:image" content="<?= get_template_directory_uri().'/src/images/logo/genimex_meta.jpg' ?>">
+
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

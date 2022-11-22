@@ -1321,6 +1321,10 @@ body {
   }
 }
 
+.grecaptcha-badge {
+  display: none !important;
+}
+
 @import "node_modules/swiper/swiper-bundle.min";
 @import "node_modules/select2/dist/css/select2.min";
 @import "reset";

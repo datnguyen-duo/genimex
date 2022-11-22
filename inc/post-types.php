@@ -18,6 +18,7 @@ function register_post_types() {
        'has_archive' => false,
 //        'hierarchical' => true,
        'supports' => array('title','editor','thumbnail','excerpt'),
+       'menu_icon' => 'dashicons-portfolio',
    ));
 
    register_post_type('expretises',array(
@@ -38,7 +39,7 @@ function register_post_types() {
     'has_archive' => false,
 //        'hierarchical' => true,
     'supports' => array('title','editor','thumbnail','excerpt'),
-    
+    'menu_icon' => 'dashicons-admin-tools',
     ));
 
     register_post_type('team',array(
@@ -59,7 +60,7 @@ function register_post_types() {
         'has_archive' => false,
     //        'hierarchical' => true,
         'supports' => array('title','editor','thumbnail','excerpt'),
-        
+        'menu_icon' => 'dashicons-businessman',
         ));
 }
 add_action('init','register_post_types');
