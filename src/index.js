@@ -473,6 +473,27 @@ document.addEventListener(
     heroAnimation.to(heroVideo, { opacity: 1, duration: 0.7 });
     heroAnimation.to(heroContent, { opacity: 1, duration: 0.4, delay: 0.5 });
     heroAnimation.to(header, { opacity: 1, duration: 0.4, delay: 0.5 });
+
+    //email signature
+    function copyToClip(str) {
+      function listener(e) {
+        e.clipboardData.setData("text/html", str);
+        e.clipboardData.setData("text/plain", str);
+        e.preventDefault();
+      }
+      document.addEventListener("copy", listener);
+      document.execCommand("copy");
+      document.removeEventListener("copy", listener);
+    }
+
+    var copyBtn = document.querySelector(".ctc"),
+      signature = document.getElementById("signature");
+
+    if (copyBtn) {
+      copyBtn.addEventListener("click", function () {
+        copyToClip(signature.outerHTML);
+      });
+    }
   },
   false
 );

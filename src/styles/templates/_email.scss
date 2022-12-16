@@ -1,0 +1,13 @@
+.email-signature {
+  padding: 10em 4em 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .btn {
+    width: auto;
+    margin-top: 4em;
+    cursor: pointer;
+  }
+}
