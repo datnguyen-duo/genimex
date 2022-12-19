@@ -487,11 +487,31 @@ document.addEventListener(
     }
 
     var copyBtn = document.querySelector(".ctc"),
-      signature = document.getElementById("signature");
+      copyBtnNLI = document.querySelector(".ctc_no-linkedin"),
+      copyBtnSmall = document.querySelector(".ctc__small"),
+      copyBtnSmallNLI = document.querySelector(".ctc__small--no-linkedin"),
+      signature = document.getElementById("signature"),
+      signatureNLI = document.getElementById("signature_no-linkedin"),
+      signatureSmall = document.getElementById("small-signature"),
+      signatureSmallNLI = document.getElementById(
+        "small-signature_no-linkedin"
+      );
 
-    if (copyBtn) {
+    if (copyBtn && copyBtnSmall) {
       copyBtn.addEventListener("click", function () {
         copyToClip(signature.outerHTML);
+      });
+
+      copyBtnSmall.addEventListener("click", function () {
+        copyToClip(signatureSmall.outerHTML);
+      });
+
+      copyBtnNLI.addEventListener("click", function () {
+        copyToClip(signature.outerHTML);
+      });
+
+      copyBtnSmall.addEventListener("click", function () {
+        copyToClip(signatureSmall.outerHTML);
       });
     }
   },
