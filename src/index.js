@@ -507,11 +507,11 @@ document.addEventListener(
       });
 
       copyBtnNLI.addEventListener("click", function () {
-        copyToClip(signature.outerHTML);
+        copyToClip(signatureNLI.outerHTML);
       });
 
-      copyBtnSmall.addEventListener("click", function () {
-        copyToClip(signatureSmall.outerHTML);
+      copyBtnSmallNLI.addEventListener("click", function () {
+        copyToClip(signatureSmallNLI.outerHTML);
       });
     }
   },

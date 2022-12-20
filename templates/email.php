@@ -53,9 +53,9 @@ get_header(); ?>
                             <img
                               src="<?php echo $logo['url']; ?>"
                               role="presentation"
-                              style="display: block; max-width: 120px"
+                              style="display: block; max-width: 100px"
                               class="image__StyledImage-sc-hupvqm-0 eLouvR"
-                              width="120"
+                              width="100"
                             />
                           </td>
                         </tr>
@@ -71,16 +71,13 @@ get_header(); ?>
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="padding: 0px; color: rgb(75, 76, 77)">
                             <h2
                               color="#43BFAD"
                               style="
                                 margin: 0px;
-                                font-size: 18px;
+                                font-size: 16px;
                                 color: rgb(67, 191, 173);
                                 font-weight: 500;
                                 white-space: nowrap;
@@ -92,14 +89,12 @@ get_header(); ?>
                           </td>
                         </tr>
 
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle">
                             <table
                               style="
                                 font-family: 'Noto Sans SC', Arial, Helvetica;
+                                width: 100%;
                               "
                               class="table__StyledTable-sc-1avdl6r-0 iasblw"
                               cellspacing="0"
@@ -115,7 +110,7 @@ get_header(); ?>
                                         display: block;
                                         text-decoration: none;
                                         color: rgb(75, 76, 77);
-                                        font-size: 14px;
+                                        font-size: 12px;
                                       "
                                       class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
                                     >
@@ -128,13 +123,18 @@ get_header(); ?>
                                         width="20"
                                     /></a>
                                   </td>
-                                  <td style="padding: 0px">
+                                  <td
+                                    style="vertical-align: middle; width: 220px"
+                                  >
                                     <span
-                                      color="#4b4c4d"
-                                      style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
+                                      style="
+                                        padding: 0px;
+                                        font-size: 12px;
+                                        color: rgb(75, 76, 77);
+                                        white-space: nowrap;
+                                      "
+                                      ><?php echo $linkedin['title']; ?></span
                                     >
-                                      <?php echo $linkedin['title']; ?>
-                                    </span>
                                   </td>
                                 </tr>
                               </tbody>
@@ -184,10 +184,7 @@ get_header(); ?>
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle" width="30">
                             <img
                               src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone.png"
@@ -201,43 +198,52 @@ get_header(); ?>
                           <td style="padding: 0px; color: rgb(75, 76, 77)">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
+                              style="
+                                font-size: 12px;
+                                color: rgb(75, 76, 77);
+                                white-space: nowrap;
+                              "
                             >
                               <?php echo $phone_number; ?>
                             </span>
                           </td>
                         </tr>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
-                          <td
-                            style="vertical-align: middle"
-                            width="30"
-                            height="22"
-                          >
-                            <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website.png"
-                              color="#43bfad"
-                              alt="website"
-                              style="display: block"
-                              class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
-                              width="20"
-                            />
+                        <tr style="vertical-align: middle">
+                          <td style="vertical-align: middle" width="30">
+                            <a
+                              href="<?php echo $website['url']; ?>"
+                              color="#4b4c4d"
+                              style="
+                                display: block;
+                                text-decoration: none;
+                                color: rgb(75, 76, 77);
+                                font-size: 12px;
+                              "
+                              class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
+                            >
+                              <img
+                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website.png"
+                                color="#43bfad"
+                                alt="address"
+                                style="display: block"
+                                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
+                                width="20"
+                            /></a>
                           </td>
                           <td style="padding: 0px">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
+                              style="
+                                font-size: 12px;
+                                color: rgb(75, 76, 77);
+                                white-space: nowrap;
+                              "
                             >
-                              <?php echo $website; ?>
+                              <?php echo $website['title']; ?>
                             </span>
                           </td>
                         </tr>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle" width="30">
                             <img
                               src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location.png"
@@ -248,10 +254,10 @@ get_header(); ?>
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px">
+                          <td style="padding: 0px; width: 220px">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 14px; color: rgb(75, 76, 77)"
+                              style="font-size: 12px; color: rgb(75, 76, 77);"
                               class="contact-info__Address-sc-mmkjr6-3 ikFVIq"
                               ><?php echo $address; ?></span
                             >
@@ -271,7 +277,6 @@ get_header(); ?>
   <div class="btn small ctc">
     <span>Copy Full Signature</span>
   </div>
-
 
   <div id="signature_no-linkedin">
     <table
@@ -315,9 +320,9 @@ get_header(); ?>
                             <img
                               src="<?php echo $logo['url']; ?>"
                               role="presentation"
-                              style="display: block; max-width: 120px"
+                              style="display: block; max-width: 100px"
                               class="image__StyledImage-sc-hupvqm-0 eLouvR"
-                              width="120"
+                              width="100"
                             />
                           </td>
                         </tr>
@@ -333,16 +338,13 @@ get_header(); ?>
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="padding: 0px; color: rgb(75, 76, 77)">
                             <h2
                               color="#43BFAD"
                               style="
                                 margin: 0px;
-                                font-size: 18px;
+                                font-size: 16px;
                                 color: rgb(67, 191, 173);
                                 font-weight: 500;
                                 white-space: nowrap;
@@ -354,10 +356,7 @@ get_header(); ?>
                           </td>
                         </tr>
 
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle">
                             <table
                               style="
@@ -371,10 +370,13 @@ get_header(); ?>
                                 <tr>
                                   <td style="padding: 0px">
                                     <span
-                                      color="#4b4c4d"
-                                      style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
-                                    >
-                                      <?php echo $linkedin['title']; ?>
+                                      style="
+                                        padding: 0px;
+                                        font-size: 12px;
+                                        color: rgb(75, 76, 77);
+                                        white-space: nowrap;
+                                      "
+                                      ><?php echo $linkedin['title']; ?>
                                     </span>
                                   </td>
                                 </tr>
@@ -425,10 +427,7 @@ get_header(); ?>
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle" width="30">
                             <img
                               src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone.png"
@@ -442,43 +441,52 @@ get_header(); ?>
                           <td style="padding: 0px; color: rgb(75, 76, 77)">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
+                              style="
+                                font-size: 12px;
+                                color: rgb(75, 76, 77);
+                                white-space: nowrap;
+                              "
                             >
                               <?php echo $phone_number; ?>
                             </span>
                           </td>
                         </tr>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
-                          <td
-                            style="vertical-align: middle"
-                            width="30"
-                            height="22"
-                          >
-                            <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website.png"
-                              color="#43bfad"
-                              alt="website"
-                              style="display: block"
-                              class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
-                              width="20"
-                            />
+                        <tr style="vertical-align: middle">
+                          <td style="vertical-align: middle" width="30">
+                            <a
+                              href="<?php echo $website['url']; ?>"
+                              color="#4b4c4d"
+                              style="
+                                display: block;
+                                text-decoration: none;
+                                color: rgb(75, 76, 77);
+                                font-size: 12px;
+                              "
+                              class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
+                            >
+                              <img
+                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website.png"
+                                color="#43bfad"
+                                alt="address"
+                                style="display: block"
+                                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
+                                width="20"
+                            /></a>
                           </td>
                           <td style="padding: 0px">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
+                              style="
+                                font-size: 12px;
+                                color: rgb(75, 76, 77);
+                                white-space: nowrap;
+                              "
                             >
-                              <?php echo $website; ?>
+                              <?php echo $website['title']; ?>
                             </span>
                           </td>
                         </tr>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle" width="30">
                             <img
                               src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location.png"
@@ -489,10 +497,10 @@ get_header(); ?>
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px">
+                          <td style="padding: 0px; width: 220px">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 14px; color: rgb(75, 76, 77)"
+                              style="font-size: 12px; color: rgb(75, 76, 77)"
                               class="contact-info__Address-sc-mmkjr6-3 ikFVIq"
                               ><?php echo $address; ?></span
                             >
@@ -555,9 +563,9 @@ get_header(); ?>
                             <img
                               src="<?php echo $logo['url']; ?>"
                               role="presentation"
-                              style="display: block; max-width: 120px"
+                              style="display: block; max-width: 100px"
                               class="image__StyledImage-sc-hupvqm-0 eLouvR"
-                              width="120"
+                              width="100"
                             />
                           </td>
                         </tr>
@@ -573,16 +581,13 @@ get_header(); ?>
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="padding: 0px; color: rgb(75, 76, 77)">
                             <h2
                               color="#43BFAD"
                               style="
                                 margin: 0px;
-                                font-size: 18px;
+                                font-size: 16px;
                                 color: rgb(67, 191, 173);
                                 font-weight: 500;
                                 white-space: nowrap;
@@ -594,10 +599,7 @@ get_header(); ?>
                           </td>
                         </tr>
 
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle">
                             <table
                               style="
@@ -617,7 +619,7 @@ get_header(); ?>
                                         display: block;
                                         text-decoration: none;
                                         color: rgb(75, 76, 77);
-                                        font-size: 14px;
+                                        font-size: 12px;
                                       "
                                       class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
                                     >
@@ -632,10 +634,13 @@ get_header(); ?>
                                   </td>
                                   <td style="padding: 0px">
                                     <span
-                                      color="#4b4c4d"
-                                      style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
-                                    >
-                                      <?php echo $linkedin['title']; ?>
+                                      style="
+                                        padding: 0px;
+                                        font-size: 12px;
+                                        color: rgb(75, 76, 77);
+                                        white-space: nowrap;
+                                      "
+                                      ><?php echo $linkedin['title']; ?>
                                     </span>
                                   </td>
                                 </tr>
@@ -700,9 +705,9 @@ get_header(); ?>
                             <img
                               src="<?php echo $logo['url']; ?>"
                               role="presentation"
-                              style="display: block; max-width: 120px"
+                              style="display: block; max-width: 100px"
                               class="image__StyledImage-sc-hupvqm-0 eLouvR"
-                              width="120"
+                              width="100"
                             />
                           </td>
                         </tr>
@@ -718,16 +723,13 @@ get_header(); ?>
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="padding: 0px; color: rgb(75, 76, 77)">
                             <h2
                               color="#43BFAD"
                               style="
                                 margin: 0px;
-                                font-size: 18px;
+                                font-size: 16px;
                                 color: rgb(67, 191, 173);
                                 font-weight: 500;
                                 white-space: nowrap;
@@ -739,10 +741,7 @@ get_header(); ?>
                           </td>
                         </tr>
 
-                        <tr
-                          style="vertical-align: middle; height: 22px"
-                          height="22"
-                        >
+                        <tr style="vertical-align: middle">
                           <td style="vertical-align: middle">
                             <table
                               style="
@@ -756,10 +755,13 @@ get_header(); ?>
                                 <tr>
                                   <td style="padding: 0px">
                                     <span
-                                      color="#4b4c4d"
-                                      style="font-size: 14px; color: rgb(75, 76, 77); white-space: nowrap"
-                                    >
-                                      <?php echo $linkedin['title']; ?>
+                                      style="
+                                        padding: 0px;
+                                        font-size: 12px;
+                                        color: rgb(75, 76, 77);
+                                        white-space: nowrap;
+                                      "
+                                      ><?php echo $linkedin['title']; ?>
                                     </span>
                                   </td>
                                 </tr>
