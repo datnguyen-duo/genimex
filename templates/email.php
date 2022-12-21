@@ -11,54 +11,55 @@ $address = get_field('address');
 
 if ( post_password_required() ) {
   ?>
-  <style>
-      @font-face {
-        font-family: "PPNeueMontreal-Regular";
-        font-style: normal;
-        font-weight: 400;
-        src: url("<?php echo $themeurl?>/build/fonts/PPNeueMontreal-Regular.e975bf83.woff2") format("woff2"),
-          url("<?php echo $themeurl?>/build/fonts/PPNeueMontreal-Regular.11e3b547.woff") format("woff");
-      }
+<style>
+  @font-face {
+    font-family: "PPNeueMontreal-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("<?php echo $themeurl?>/build/fonts/PPNeueMontreal-Regular.e975bf83.woff2")
+        format("woff2"),
+      url("<?php echo $themeurl?>/build/fonts/PPNeueMontreal-Regular.11e3b547.woff")
+        format("woff");
+  }
 
-      * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-      } 
-     form {
-          align-content: baseline;
-          display: flex;
-          flex-direction: column;
-          height: 100%;
-          justify-content: center;
-          align-items: center;            
-          font-family: "PPNeueMontreal-Regular";
-      }
-      form label {
-          font-size: 64px;
-          text-transform: uppercase;  
-      }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  form {
+    align-content: baseline;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: "PPNeueMontreal-Regular";
+  }
+  form label {
+    font-size: 64px;
+    text-transform: uppercase;
+  }
 
-      form .wrapper input:nth-child(1) {
-          border: 1px solid #000;
-          outline: none;
-      }
-      form .wrapper input:nth-child(2) {
-          border: 1px solid #000;
-          height: 100%;
-          padding: 0 1em;
-          background: none;
-          outline: none;
-          border-left: none;
-      }
-
-  </style>
-  <?php the_content();
+  form .wrapper input:nth-child(1) {
+    border: 1px solid #000;
+    outline: none;
+  }
+  form .wrapper input:nth-child(2) {
+    border: 1px solid #000;
+    height: 100%;
+    padding: 0 1em;
+    background: none;
+    outline: none;
+    border-left: none;
+  }
+</style>
+<?php the_content();
 
 } else {
 
   get_header();?>
-  <div class="email-signature">
+<div class="email-signature">
   <div id="signature">
     <table
       style="font-family: 'Noto Sans SC', Arial, Helvetica"
@@ -103,7 +104,7 @@ if ( post_password_required() ) {
                     </table>
                   </td>
                   <td width="22"><div></div></td>
-                  <td style="padding: 0px; vertical-align: middle">
+                  <td style="padding: 0px; ">
                     <table
                       style="font-family: 'Noto Sans SC', Arial, Helvetica"
                       class="table__StyledTable-sc-1avdl6r-0 iasblw"
@@ -111,8 +112,8 @@ if ( post_password_required() ) {
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr style="vertical-align: middle">
-                          <td style="padding: 0px; color: rgb(75, 76, 77)">
+                        <tr style="">
+                          <td style="padding: 0px; color: rgb(0, 0, 0)">
                             <h2
                               color="#43BFAD"
                               style="
@@ -129,8 +130,8 @@ if ( post_password_required() ) {
                           </td>
                         </tr>
 
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle">
+                        <tr style="">
+                          <td style="">
                             <table
                               style="
                                 font-family: 'Noto Sans SC', Arial, Helvetica;
@@ -142,20 +143,20 @@ if ( post_password_required() ) {
                             >
                               <tbody>
                                 <tr>
-                                  <td style="vertical-align: middle" width="30">
+                                  <td style="" width="30">
                                     <a
                                       href="<?php echo $linkedin['url']; ?>"
                                       color="#4b4c4d"
                                       style="
                                         display: block;
                                         text-decoration: none;
-                                        color: rgb(75, 76, 77);
+                                        color: rgb(0, 0, 0);
                                         font-size: 12px;
                                       "
                                       class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
                                     >
                                       <img
-                                        src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-linkedin.png"
+                                        src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-linkedin-1.png"
                                         color="#43bfad"
                                         alt="address"
                                         style="display: block"
@@ -164,13 +165,13 @@ if ( post_password_required() ) {
                                     /></a>
                                   </td>
                                   <td
-                                    style="vertical-align: middle; width: 250px"
+                                    style="width: 250px"
                                   >
                                     <span
                                       style="
                                         padding: 0px;
                                         font-size: 12px;
-                                        color: rgb(75, 76, 77);
+                                        color: rgb(0, 0, 0);
                                         white-space: nowrap;
                                       "
                                       ><?php echo $linkedin['title']; ?></span
@@ -220,23 +221,21 @@ if ( post_password_required() ) {
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle" width="30">
+                        <tr style="">
+                          <td style="vertical-align: top;" width="30">
                             <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone.png"
-                              color="#43bfad"
+                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone-1.png"
                               alt="mobilePhone"
-                              style="display: block"
-                              class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
+                              style="display: block;"
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px; color: rgb(75, 76, 77)">
+                          <td style="padding: 0px; color: rgb(0, 0, 0); vertical-align: middle">
                             <span
                               color="#4b4c4d"
                               style="
                                 font-size: 12px;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 white-space: nowrap;
                               "
                             >
@@ -244,21 +243,21 @@ if ( post_password_required() ) {
                             </span>
                           </td>
                         </tr>
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle" width="30">
+                        <tr style="">
+                          <td style="vertical-align: top;" width="30">
                             <a
                               href="<?php echo $website['url']; ?>"
                               color="#4b4c4d"
                               style="
                                 display: block;
                                 text-decoration: none;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 font-size: 12px;
                               "
                               class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
                             >
                               <img
-                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website.png"
+                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website-1.png"
                                 color="#43bfad"
                                 alt="address"
                                 style="display: block"
@@ -266,12 +265,12 @@ if ( post_password_required() ) {
                                 width="20"
                             /></a>
                           </td>
-                          <td style="padding: 0px">
+                          <td style="padding: 0px; vertical-align: middle">
                             <span
                               color="#4b4c4d"
                               style="
                                 font-size: 12px;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 white-space: nowrap;
                               "
                             >
@@ -279,10 +278,10 @@ if ( post_password_required() ) {
                             </span>
                           </td>
                         </tr>
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle" width="30">
+                        <tr style="">
+                          <td style="vertical-align: top" width="30">
                             <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location.png"
+                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location-1.png"
                               color="#43bfad"
                               alt="address"
                               style="display: block"
@@ -290,10 +289,10 @@ if ( post_password_required() ) {
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px; width: 250px">
+                          <td style="padding: 0px; width: 250px; vertical-align: middle">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 12px; color: rgb(75, 76, 77);"
+                              style="font-size: 12px; color: rgb(0, 0, 0)"
                               class="contact-info__Address-sc-mmkjr6-3 ikFVIq"
                               ><?php echo $address; ?></span
                             >
@@ -358,7 +357,7 @@ if ( post_password_required() ) {
                     </table>
                   </td>
                   <td width="22"><div></div></td>
-                  <td style="padding: 0px; vertical-align: middle">
+                  <td style="padding: 0px;">
                     <table
                       style="font-family: 'Noto Sans SC', Arial, Helvetica"
                       class="table__StyledTable-sc-1avdl6r-0 iasblw"
@@ -366,8 +365,8 @@ if ( post_password_required() ) {
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr style="vertical-align: middle">
-                          <td style="padding: 0px; color: rgb(75, 76, 77)">
+                        <tr style="">
+                          <td style="padding: 0px; color: rgb(0, 0, 0); width: 250px">
                             <h2
                               color="#43BFAD"
                               style="
@@ -384,8 +383,8 @@ if ( post_password_required() ) {
                           </td>
                         </tr>
 
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle">
+                        <tr style="">
+                          <td style="">
                             <table
                               style="
                                 font-family: 'Noto Sans SC', Arial, Helvetica;
@@ -396,12 +395,12 @@ if ( post_password_required() ) {
                             >
                               <tbody>
                                 <tr>
-                                  <td style="padding: 0px; width: 250px;">
+                                  <td style="padding: 0px; width: 250px">
                                     <span
                                       style="
                                         padding: 0px;
                                         font-size: 12px;
-                                        color: rgb(75, 76, 77);
+                                        color: rgb(0, 0, 0);
                                         white-space: nowrap;
                                       "
                                       ><?php echo $linkedin['title']; ?>
@@ -451,10 +450,10 @@ if ( post_password_required() ) {
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle" width="30">
+                        <tr style="">
+                          <td style="vertical-align: top" width="30">
                             <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone.png"
+                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone-1.png"
                               color="#43bfad"
                               alt="mobilePhone"
                               style="display: block"
@@ -462,12 +461,12 @@ if ( post_password_required() ) {
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px; color: rgb(75, 76, 77)">
+                          <td style="padding: 0px; color: rgb(0, 0, 0); vertical-align: middle">
                             <span
                               color="#4b4c4d"
                               style="
                                 font-size: 12px;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 white-space: nowrap;
                               "
                             >
@@ -475,21 +474,21 @@ if ( post_password_required() ) {
                             </span>
                           </td>
                         </tr>
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle" width="30">
+                        <tr style="">
+                          <td style="vertical-align: top" width="30">
                             <a
                               href="<?php echo $website['url']; ?>"
                               color="#4b4c4d"
                               style="
                                 display: block;
                                 text-decoration: none;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 font-size: 12px;
                               "
                               class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
                             >
                               <img
-                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website.png"
+                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website-1.png"
                                 color="#43bfad"
                                 alt="address"
                                 style="display: block"
@@ -497,12 +496,12 @@ if ( post_password_required() ) {
                                 width="20"
                             /></a>
                           </td>
-                          <td style="padding: 0px">
+                          <td style="padding: 0px; vertical-align: middle">
                             <span
                               color="#4b4c4d"
                               style="
                                 font-size: 12px;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 white-space: nowrap;
                               "
                             >
@@ -510,10 +509,10 @@ if ( post_password_required() ) {
                             </span>
                           </td>
                         </tr>
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle" width="30">
+                        <tr style="">
+                          <td style="vertical-align: top" width="30">
                             <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location.png"
+                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location-1.png"
                               color="#43bfad"
                               alt="address"
                               style="display: block"
@@ -521,10 +520,10 @@ if ( post_password_required() ) {
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px; width: 250px">
+                          <td style="padding: 0px; width: 250px; vertical-align: middle">
                             <span
                               color="#4b4c4d"
-                              style="font-size: 12px; color: rgb(75, 76, 77)"
+                              style="font-size: 12px; color: rgb(0, 0, 0)"
                               class="contact-info__Address-sc-mmkjr6-3 ikFVIq"
                               ><?php echo $address; ?></span
                             >
@@ -563,7 +562,7 @@ if ( post_password_required() ) {
             >
               <tbody>
                 <tr>
-                  <td style="padding: 0px; vertical-align: middle">
+                  <td style="padding: 0px; ">
                     <table
                       style="font-family: 'Noto Sans SC', Arial, Helvetica"
                       class="table__StyledTable-sc-1avdl6r-0 iasblw"
@@ -571,8 +570,8 @@ if ( post_password_required() ) {
                       cellpadding="0"
                     >
                       <tbody>
-                        <tr style="vertical-align: middle">
-                          <td style="padding: 0px; color: rgb(75, 76, 77)">
+                        <tr style="">
+                          <td style="padding: 0px; color: rgb(0, 0, 0)">
                             <h2
                               color="#43BFAD"
                               style="
@@ -589,8 +588,8 @@ if ( post_password_required() ) {
                           </td>
                         </tr>
 
-                        <tr style="vertical-align: middle">
-                          <td style="vertical-align: middle">
+                        <tr style="">
+                          <td style="">
                             <table
                               style="
                                 font-family: 'Noto Sans SC', Arial, Helvetica;
@@ -601,12 +600,12 @@ if ( post_password_required() ) {
                             >
                               <tbody>
                                 <tr>
-                                  <td style="padding: 0px; width: 250px;">
+                                  <td style="padding: 0px; width: 250px">
                                     <span
                                       style="
                                         padding: 0px;
                                         font-size: 12px;
-                                        color: rgb(75, 76, 77);
+                                        color: rgb(0, 0, 0);
                                         white-space: nowrap;
                                       "
                                       ><?php echo $linkedin['title']; ?>
@@ -617,13 +616,13 @@ if ( post_password_required() ) {
                             </table>
                           </td>
                         </tr>
-                        <tr style="vertical-align: middle">
+                        <tr style="">
                           <td style="padding: 0px">
                             <span
                               color="#4b4c4d"
                               style="
                                 font-size: 12px;
-                                color: rgb(75, 76, 77);
+                                color: rgb(0, 0, 0);
                                 white-space: nowrap;
                               "
                             >
@@ -643,11 +642,8 @@ if ( post_password_required() ) {
     </table>
   </div>
   <div class="btn small ctc__small--no-linkedin">
-    <span>Copy Small Signature w/o LinkedIn</span>
+    <span>Copy Small Signature</span>
   </div>
 </div>
 
 <?php  get_footer(); } ?>
-
-
-
