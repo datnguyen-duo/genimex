@@ -78,7 +78,7 @@ if ( post_password_required() ) {
             >
               <tbody>
                 <tr>
-                  <td style="vertical-align: middle">
+                  <td style="vertical-align: middle" valign="middle">
                     <table
                       style="font-family: 'Noto Sans SC', Arial, Helvetica"
                       class="table__StyledTable-sc-1avdl6r-0 iasblw"
@@ -114,7 +114,7 @@ if ( post_password_required() ) {
                       <tbody>
                         <tr style="">
                           <td style="padding: 0px; color: rgb(0, 0, 0)">
-                            <h2
+                            <p
                               color="#43BFAD"
                               style="
                                 margin: 0px;
@@ -126,7 +126,7 @@ if ( post_password_required() ) {
                               class="name__NameContainer-sc-1m457h3-0 jCjfGD"
                             >
                               <?php echo $name; ?>
-                            </h2>
+                            </p>
                           </td>
                         </tr>
 
@@ -143,7 +143,7 @@ if ( post_password_required() ) {
                             >
                               <tbody>
                                 <tr>
-                                  <td style="" width="30">
+                                  <td style="vertical-align: top" width="30" valign="top">
                                     <a
                                       href="<?php echo $linkedin['url']; ?>"
                                       color="#4b4c4d"
@@ -165,7 +165,8 @@ if ( post_password_required() ) {
                                     /></a>
                                   </td>
                                   <td
-                                    style="width: 250px"
+                                    style="width: 250px; vertical-align: middle"
+                                    valign="middle"
                                   >
                                     <span
                                       style="
@@ -184,36 +185,7 @@ if ( post_password_required() ) {
                         </tr>
                       </tbody>
                     </table>
-                    <table
-                      style="
-                        width: 100%;
-                        font-family: 'Noto Sans SC', Arial, Helvetica;
-                      "
-                      class="table__StyledTable-sc-1avdl6r-0 iasblw"
-                      cellspacing="0"
-                      cellpadding="0"
-                    >
-                      <tbody>
-                        <tr height="4"></tr>
-                        <tr>
-                          <td
-                            color="#43bfad"
-                            direction="horizontal"
-                            style="
-                              width: 100%;
-                              border-bottom: 1px solid rgb(217, 217, 217);
-                              border-left: medium none;
-                              display: block;
-                            "
-                            class="color-divider__Divider-sc-1h38qjv-0 dVPycS"
-                            width="auto"
-                            height="1"
-                          ></td>
-                        </tr>
-                        <tr height="4"></tr>
-                      </tbody>
-                    </table>
-
+                    <hr width="100%" size="1" align="center">
                     <table
                       style="font-family: 'Noto Sans SC', Arial, Helvetica"
                       class="table__StyledTable-sc-1avdl6r-0 iasblw"
@@ -222,7 +194,7 @@ if ( post_password_required() ) {
                     >
                       <tbody>
                         <tr style="">
-                          <td style="vertical-align: top;" width="30">
+                          <td style="vertical-align: top;" width="30" valign="top">
                             <img
                               src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone-1.png"
                               alt="mobilePhone"
@@ -230,7 +202,7 @@ if ( post_password_required() ) {
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px; color: rgb(0, 0, 0); vertical-align: middle">
+                          <td style="padding: 0px; color: rgb(0, 0, 0); vertical-align: middle" valign="middle">
                             <span
                               color="#4b4c4d"
                               style="
@@ -244,7 +216,7 @@ if ( post_password_required() ) {
                           </td>
                         </tr>
                         <tr style="">
-                          <td style="vertical-align: top;" width="30">
+                          <td style="vertical-align: top;" width="30" valign="top">
                             <a
                               href="<?php echo $website['url']; ?>"
                               color="#4b4c4d"
@@ -265,7 +237,7 @@ if ( post_password_required() ) {
                                 width="20"
                             /></a>
                           </td>
-                          <td style="padding: 0px; vertical-align: middle">
+                          <td style="padding: 0px; vertical-align: middle" valign="middle">
                             <span
                               color="#4b4c4d"
                               style="
@@ -279,7 +251,7 @@ if ( post_password_required() ) {
                           </td>
                         </tr>
                         <tr style="">
-                          <td style="vertical-align: top" width="30">
+                          <td style="vertical-align: top" width="30" valign="top">
                             <img
                               src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location-1.png"
                               color="#43bfad"
@@ -289,7 +261,7 @@ if ( post_password_required() ) {
                               width="20"
                             />
                           </td>
-                          <td style="padding: 0px; width: 250px; vertical-align: middle">
+                          <td style="padding: 0px; width: 250px; vertical-align: middle" valign="middle">
                             <span
                               color="#4b4c4d"
                               style="font-size: 12px; color: rgb(0, 0, 0)"
@@ -314,231 +286,222 @@ if ( post_password_required() ) {
   </div>
 
   <div id="signature_no-linkedin">
-    <table
-      style="font-family: 'Noto Sans SC', Arial, Helvetica"
-      class="table__StyledTable-sc-1avdl6r-0 iasblw"
-      cellspacing="0"
-      cellpadding="0"
-    >
-      <tbody>
-        <tr>
-          <td>
-            <table
-              style="font-family: 'Noto Sans SC', Arial, Helvetica"
-              class="table__StyledTable-sc-1avdl6r-0 iasblw"
-              cellspacing="0"
-              cellpadding="0"
-            >
-              <tbody>
-                <tr>
-                  <td style="vertical-align: middle">
-                    <table
-                      style="font-family: 'Noto Sans SC', Arial, Helvetica"
-                      class="table__StyledTable-sc-1avdl6r-0 iasblw"
-                      cellspacing="0"
-                      cellpadding="0"
-                    >
-                      <tbody>
-                        <tr>
-                          <td
-                            style="text-align: center"
-                            class="template1__ImageContainer-sc-nmby7a-0 jTxCHa"
-                          >
-                            <img
-                              src="<?php echo $logo['url']; ?>"
-                              role="presentation"
-                              style="display: block; max-width: 90px"
-                              class="image__StyledImage-sc-hupvqm-0 eLouvR"
-                              width="90"
-                            />
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                  <td width="22"><div></div></td>
-                  <td style="padding: 0px;">
-                    <table
-                      style="font-family: 'Noto Sans SC', Arial, Helvetica"
-                      class="table__StyledTable-sc-1avdl6r-0 iasblw"
-                      cellspacing="0"
-                      cellpadding="0"
-                    >
-                      <tbody>
-                        <tr style="">
-                          <td style="padding: 0px; color: rgb(0, 0, 0); width: 250px">
-                            <h2
-                              color="#43BFAD"
-                              style="
-                                margin: 0px;
-                                font-size: 16px;
-                                color: rgb(67, 191, 173);
-                                font-weight: 500;
-                                white-space: nowrap;
-                              "
-                              class="name__NameContainer-sc-1m457h3-0 jCjfGD"
-                            >
-                              <?php echo $name; ?>
-                            </h2>
-                          </td>
-                        </tr>
+  <table
+  style="font-family: 'Noto Sans SC', Arial, Helvetica"
+  class="table__StyledTable-sc-1avdl6r-0 iasblw"
+  cellspacing="0"
+  cellpadding="0"
+>
+  <tbody>
+    <tr>
+      <td>
+        <table
+          style="font-family: 'Noto Sans SC', Arial, Helvetica"
+          class="table__StyledTable-sc-1avdl6r-0 iasblw"
+          cellspacing="0"
+          cellpadding="0"
+        >
+          <tbody>
+            <tr>
+              <td style="vertical-align: middle" valign="middle">
+                <table
+                  style="font-family: 'Noto Sans SC', Arial, Helvetica"
+                  class="table__StyledTable-sc-1avdl6r-0 iasblw"
+                  cellspacing="0"
+                  cellpadding="0"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        style="text-align: center"
+                        class="template1__ImageContainer-sc-nmby7a-0 jTxCHa"
+                      >
+                        <img
+                          src="<?php echo $logo['url']; ?>"
+                          role="presentation"
+                          style="display: block; max-width: 90px"
+                          class="image__StyledImage-sc-hupvqm-0 eLouvR"
+                          width="90"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td width="22"><div></div></td>
+              <td style="padding: 0px">
+                <table
+                  style="font-family: 'Noto Sans SC', Arial, Helvetica"
+                  class="table__StyledTable-sc-1avdl6r-0 iasblw"
+                  cellspacing="0"
+                  cellpadding="0"
+                >
+                  <tbody>
+                    <tr style="">
+                      <td style="padding: 0px; color: rgb(0, 0, 0)">
+                        <p
+                          color="#43BFAD"
+                          style="
+                            margin: 0px;
+                            font-size: 16px;
+                            color: rgb(67, 191, 173);
+                            font-weight: 500;
+                            white-space: nowrap;
+                          "
+                          class="name__NameContainer-sc-1m457h3-0 jCjfGD"
+                        >
+                          <?php echo $name; ?>
+                        </p>
+                      </td>
+                    </tr>
 
-                        <tr style="">
-                          <td style="">
-                            <table
-                              style="
-                                font-family: 'Noto Sans SC', Arial, Helvetica;
-                              "
-                              class="table__StyledTable-sc-1avdl6r-0 iasblw"
-                              cellspacing="0"
-                              cellpadding="0"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td style="padding: 0px; width: 250px">
-                                    <span
-                                      style="
-                                        padding: 0px;
-                                        font-size: 12px;
-                                        color: rgb(0, 0, 0);
-                                        white-space: nowrap;
-                                      "
-                                      ><?php echo $linkedin['title']; ?>
-                                    </span>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table
-                      style="
-                        width: 100%;
-                        font-family: 'Noto Sans SC', Arial, Helvetica;
-                      "
-                      class="table__StyledTable-sc-1avdl6r-0 iasblw"
-                      cellspacing="0"
-                      cellpadding="0"
-                    >
-                      <tbody>
-                        <tr height="4"></tr>
-                        <tr>
-                          <td
+                    <tr style="">
+                      <td style="">
+                        <table
+                          style="
+                            font-family: 'Noto Sans SC', Arial, Helvetica;
+                            width: 100%;
+                          "
+                          class="table__StyledTable-sc-1avdl6r-0 iasblw"
+                          cellspacing="0"
+                          cellpadding="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="width: 250px; vertical-align: middle"
+                                valign="middle"
+                              >
+                                <span
+                                  style="
+                                    padding: 0px;
+                                    font-size: 12px;
+                                    color: rgb(0, 0, 0);
+                                    white-space: nowrap;
+                                  "
+                                  ><?php echo $linkedin['title']; ?></span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <hr width="100%" size="1" align="center" />
+                <table
+                  style="font-family: 'Noto Sans SC', Arial, Helvetica"
+                  class="table__StyledTable-sc-1avdl6r-0 iasblw"
+                  cellspacing="0"
+                  cellpadding="0"
+                >
+                  <tbody>
+                    <tr style="">
+                      <td style="vertical-align: top" width="30" valign="top">
+                        <img
+                          src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone-1.png"
+                          alt="mobilePhone"
+                          style="display: block"
+                          width="20"
+                        />
+                      </td>
+                      <td
+                        style="
+                          padding: 0px;
+                          color: rgb(0, 0, 0);
+                          vertical-align: middle;
+                        "
+                        valign="middle"
+                      >
+                        <span
+                          color="#4b4c4d"
+                          style="
+                            font-size: 12px;
+                            color: rgb(0, 0, 0);
+                            white-space: nowrap;
+                          "
+                        >
+                          <?php echo $phone_number; ?>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr style="">
+                      <td style="vertical-align: top" width="30" valign="top">
+                        <a
+                          href="<?php echo $website['url']; ?>"
+                          color="#4b4c4d"
+                          style="
+                            display: block;
+                            text-decoration: none;
+                            color: rgb(0, 0, 0);
+                            font-size: 12px;
+                          "
+                          class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
+                        >
+                          <img
+                            src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website-1.png"
                             color="#43bfad"
-                            direction="horizontal"
-                            style="
-                              width: 100%;
-                              border-bottom: 1px solid rgb(217, 217, 217);
-                              border-left: medium none;
-                              display: block;
-                            "
-                            class="color-divider__Divider-sc-1h38qjv-0 dVPycS"
-                            width="auto"
-                            height="1"
-                          ></td>
-                        </tr>
-                        <tr height="4"></tr>
-                      </tbody>
-                    </table>
+                            alt="address"
+                            style="display: block"
+                            class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
+                            width="20"
+                        /></a>
+                      </td>
+                      <td
+                        style="padding: 0px; vertical-align: middle"
+                        valign="middle"
+                      >
+                        <span
+                          color="#4b4c4d"
+                          style="
+                            font-size: 12px;
+                            color: rgb(0, 0, 0);
+                            white-space: nowrap;
+                          "
+                        >
+                          <?php echo $website['title']; ?>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr style="">
+                      <td style="vertical-align: top" width="30" valign="top">
+                        <img
+                          src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location-1.png"
+                          color="#43bfad"
+                          alt="address"
+                          style="display: block"
+                          class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
+                          width="20"
+                        />
+                      </td>
+                      <td
+                        style="
+                          padding: 0px;
+                          width: 250px;
+                          vertical-align: middle;
+                        "
+                        valign="middle"
+                      >
+                        <span
+                          color="#4b4c4d"
+                          style="font-size: 12px; color: rgb(0, 0, 0)"
+                          class="contact-info__Address-sc-mmkjr6-3 ikFVIq"
+                          ><?php echo $address; ?></span
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-                    <table
-                      style="font-family: 'Noto Sans SC', Arial, Helvetica"
-                      class="table__StyledTable-sc-1avdl6r-0 iasblw"
-                      cellspacing="0"
-                      cellpadding="0"
-                    >
-                      <tbody>
-                        <tr style="">
-                          <td style="vertical-align: top" width="30">
-                            <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-phone-1.png"
-                              color="#43bfad"
-                              alt="mobilePhone"
-                              style="display: block"
-                              class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
-                              width="20"
-                            />
-                          </td>
-                          <td style="padding: 0px; color: rgb(0, 0, 0); vertical-align: middle">
-                            <span
-                              color="#4b4c4d"
-                              style="
-                                font-size: 12px;
-                                color: rgb(0, 0, 0);
-                                white-space: nowrap;
-                              "
-                            >
-                              <?php echo $phone_number; ?>
-                            </span>
-                          </td>
-                        </tr>
-                        <tr style="">
-                          <td style="vertical-align: top" width="30">
-                            <a
-                              href="<?php echo $website['url']; ?>"
-                              color="#4b4c4d"
-                              style="
-                                display: block;
-                                text-decoration: none;
-                                color: rgb(0, 0, 0);
-                                font-size: 12px;
-                              "
-                              class="contact-info__ExternalLink-sc-mmkjr6-2 dwaWtg"
-                            >
-                              <img
-                                src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-website-1.png"
-                                color="#43bfad"
-                                alt="address"
-                                style="display: block"
-                                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
-                                width="20"
-                            /></a>
-                          </td>
-                          <td style="padding: 0px; vertical-align: middle">
-                            <span
-                              color="#4b4c4d"
-                              style="
-                                font-size: 12px;
-                                color: rgb(0, 0, 0);
-                                white-space: nowrap;
-                              "
-                            >
-                              <?php echo $website['title']; ?>
-                            </span>
-                          </td>
-                        </tr>
-                        <tr style="">
-                          <td style="vertical-align: top" width="30">
-                            <img
-                              src="https://www.genimexgroup.com/wp-content/uploads/2022/12/icon-location-1.png"
-                              color="#43bfad"
-                              alt="address"
-                              style="display: block"
-                              class="contact-info__ContactLabelIcon-sc-mmkjr6-0 glcxte"
-                              width="20"
-                            />
-                          </td>
-                          <td style="padding: 0px; width: 250px; vertical-align: middle">
-                            <span
-                              color="#4b4c4d"
-                              style="font-size: 12px; color: rgb(0, 0, 0)"
-                              class="contact-info__Address-sc-mmkjr6-3 ikFVIq"
-                              ><?php echo $address; ?></span
-                            >
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
   </div>
   <div class="btn small ctc_no-linkedin">
     <span>Copy Full Signature w/o LinkedIn</span>
